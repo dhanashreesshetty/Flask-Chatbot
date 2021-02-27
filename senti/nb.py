@@ -11,9 +11,7 @@ def remove_pattern(input_txt, pattern):
     return input_txt
 
 def preprocess(line):
-    tidy_line = remove_pattern(line, "@[\w]*") #remove user mentions
-    print("After removing mentions: ", tidy_line, file=sys.stderr)
-    tidy_line = re.sub("[^a-zA-Z]", " ", tidy_line) #remove punctuation
+    tidy_line = re.sub("[^a-zA-Z]", " ", line) #remove punctuation
     print("After removing punctuation: ", tidy_line, file=sys.stderr)
     tokenized = word_tokenize(tidy_line) # tokenize
     print("After tokenizing: ", tokenized, file=sys.stderr)
@@ -22,12 +20,9 @@ def preprocess(line):
     stemmed=[]
     for word in tokenized:
         stemmed.append(stemmer.stem(word))
-
     stemmed_line = ' '.join(stemmed)
     print("After stemming: ", stemmed_line, file=sys.stderr)
     return stemmed_line
-
-    #NBclassifier.predict(stemmed_line)
 
 def prediction(text, model):
     probabilities = model.predict(text)

@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.static_folder = 'static'
 responses=["Greeting Name, that's a nice name!","So Name, how are you feeling today?",
 ["Oh, that's wonderful!😇","It's a pleasure to see you in a good mood😍","That's so good to hear💚" ],
-["I am sorry to head that😔", "Oh! that's sad😕"],"What do you think is the reason behind that?", 
+["I am sorry to hear that😔", "Oh! that's sad😕"],"What do you think is the reason behind that?", 
 ["That's too bad😓 But hey! As it is rightly said, you are bigger and better than whatever is intimidating, scaring or hurting you! So don't lose hope!",
 "That's too bad😓 But hey! As Bob Marley said, you never know how strong you are, until being strong is your only choice. So keep going!"],
 "Would you like to chat more?","It was great talking to you! Have a good day!"]

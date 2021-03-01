@@ -74,6 +74,9 @@ def classify(sentence, show_details=False):
     results = [[i,r] for i,r in enumerate(results) if r>ERROR_THRESHOLD ] 
     results.sort(key=lambda x: x[1], reverse=True) 
     return_results =[[classes[r[0]],r[1]] for r in results]
+    for i in return_results:
+        if i[0] == 'joy':
+            return_results.remove(i)
     print ("%s \n classification: %s \n" % (sentence, return_results))
     return return_results
 

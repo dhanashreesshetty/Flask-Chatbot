@@ -1,16 +1,28 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect, url_for, session 
+from flask_mysqldb import MySQL 
+import MySQLdb.cursors 
+import re 
 from collections import defaultdict
 import pickle
 from senti.nb import preprocess, prediction
 import re
 import datetime
 import random
-
+from NN.neural import classify
 app = Flask(__name__)
 app.static_folder = 'static'
+
+app.secret_key = 'your secret key'  
+app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_PASSWORD'] = 'abcd@1234'
+app.config['MYSQL_DB'] = 'users'
+  
+mysql = MySQL(app) 
+
 responses=["Greeting Name, that's a nice name!","So Name, how are you feeling today?",
 ["Oh, that's wonderful!😇","It's a pleasure to see you in a good mood😍","That's so good to hear💚" ],
-["I am sorry to hear that😔", "Oh! that's sad😕"],"What do you think is the reason behind that?", 
+["I am sorry to head that😔", "Oh! that's sad😕"],"What do you think is the reason behind that?", 
 ["That's too bad😓 But hey! As it is rightly said, you are bigger and better than whatever is intimidating, scaring or hurting you! So don't lose hope!",
 "That's too bad😓 But hey! As Bob Marley said, you never know how strong you are, until being strong is your only choice. So keep going!"],
 "Would you like to chat more?","It was great talking to you! Have a good day!"]
@@ -69,6 +81,8 @@ def get_bot_response():
             response=random.choice(responses[iter])+responses[iter+1]
             iter=5
     elif iter==5:
+        resp=classify(userText)
+        print(resp)
         #detect sentiment of usertext to use in recommendation model here
         response=random.choice(responses[iter])
         iter+=1
@@ -84,9 +98,55 @@ def get_bot_response():
     #return str(chatbot.get_response(userText))
     return text+nb.prediction(text, model)"""
 
-@app.route("/chatbot")
+@app.route("/show_chatbot")
 def show_chatbot():
     return render_template("index.html")
+
+@app.route('/loginregister', methods =['GET', 'POST']) 
+def loginregister(): 
+    msg = '' 
+    if request.method == 'POST' and 'username' in request.form and 'password' in request.form and 'email' in request.form: 
+        username = request.form['username'] 
+        password = request.form['password'] 
+        email = request.form['email'] 
+        if email!="":
+            print(username,password,email)
+            cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor) 
+            cursor.execute('SELECT * FROM accounts WHERE username = % s', (username, )) 
+            account = cursor.fetchone() 
+            if account: 
+                msg = 'Account already exists !'
+            elif not re.match(r'[^@]+@[^@]+\.[^@]+', email): 
+                msg = 'Invalid email address !'
+            elif not re.match(r'[A-Za-z0-9]+', username): 
+                msg = 'Username must contain only characters and numbers !'
+            elif not username or not password or not email: 
+                msg = 'Please fill out the form !'
+            else: 
+                cursor.execute('INSERT INTO accounts VALUES (NULL, % s, % s, % s)', (username, password, email, )) 
+                mysql.connection.commit() 
+                msg = 'You have successfully registered !'
+                return render_template('index.html')   
+
+        else:
+            cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor) 
+            cursor.execute('SELECT * FROM accounts WHERE username = % s AND password = % s', (username, password, )) 
+            account = cursor.fetchone() 
+            if account: 
+                session['loggedin'] = True
+                session['id'] = account['id'] 
+                session['username'] = account['username'] 
+                msg = 'Logged in successfully !'
+                return render_template('index.html') 
+            else: 
+                msg = 'Incorrect username / password !'
+
+    elif request.method == 'POST': 
+        msg = 'Please fill out the form !'
+        
+    return render_template('home.html', msg = msg)
+    
+
 
 if __name__ == "__main__":
     with open('senti\model.sav', 'rb') as f_in:

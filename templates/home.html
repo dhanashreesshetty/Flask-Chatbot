@@ -31,9 +31,11 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 
+  <!----------Style for Login/Registration Form  -->
   <style>
+    
     /* Full-width input fields */
-    input[type=text], input[type=password] {
+    input[type=text], input[type=password], input[type=email] {
       width: 100%;
       padding: 12px 20px;
       margin: 8px 0;
@@ -41,7 +43,22 @@
       border: 1px solid #ccc;
       box-sizing: border-box;
     }
-        
+    
+    /* Set a style for all buttons */
+    button {
+      background-color: #514983;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+    
+    button:hover {
+      opacity: 0.8;
+    }
+    
     /* Extra styles for the cancel button */
     .cancelbtn {
       width: auto;
@@ -135,7 +152,24 @@
          width: 100%;
       }
     }
+    #msg {
+      margin-left: 600px;
+      color: #514983;
+      font-size: 25px;
+    }
+
+
+    #login {
+      margin-left: 15px ;
+      background-color: #514983;
+      color: white;
+      padding: 5px 5px;
+      border-radius: 15px;
+    }
+
+
     </style>
+ <!----------Style for Login/Registration Form  -->
 
 </head>
 
@@ -146,7 +180,7 @@
     <div class="container d-flex align-items-center">
 
       <div class="logo mr-auto">
-        <h1 class="text-light"><a href="{{ url_for('home') }}">WoeBot</a></h1>
+        <h1 class="text-light"><a href="{{ url_for('home') }}">ChatBuddy</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -159,46 +193,50 @@
           <li><a href="#faq">F.A.Q</a></li>
           <li><a href="#contact">Contact Us</a></li>
 
-          <li>
-            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login/Register</button></li>
+          <li class="get-started"><button onclick="document.getElementById('id01').style.display='block'" id="login" >Login/Register</button></li>
+
         </ul>
       </nav><!-- .nav-menu -->
 
     </div>
+    <div class="msg" id="msg">{{ msg }}</div> 
+
   </header><!-- End Header -->
 
-  <!------------------ Login/registration form start------->
+<!---Login?registration form Starts -->
 
 <div id="id01" class="modal">
-  
-  <form class="modal-content animate" action="/action_page.php" method="post">
+  <form class="modal-content animate" action="{{ url_for('loginregister') }}" method="post">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="img_avatar2.png" alt="Avatar" class="avatar">
     </div>
-
+    
     <div class="container">
       <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
+      <input  id="username" name="username" type="text" placeholder="Enter Username"  required>
+    
+      <span id="email1" style="display:none">
+      <label id="lemail" for="email"><b>Email Id</b></label>
+      <input id="email" name="email" type="email" placeholder="Enter Email Id"  >
+      </span>
 
       <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-        
-      <button type="submit">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
+      <input id="password" name="password" type="password" placeholder="Enter Password"  required>
+
+     
+      <button type="submit" style="width: 49%;" onclick="myFunctionlogin()">Login</button>
+      <button type="submit" style="width: 50%;" onclick="myFunction()">Not a Member? Register</button>
+      
     </div>
 
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
+    
   </form>
 </div>
 
-<!------------------ Login/registration form end------->
 
+
+
+<!-- Login/registration form ends-->
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
 
@@ -499,7 +537,7 @@
   <!-- Template Main JS File -->
   <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 
-  <!-- Login/registration script start-->
+  <!------Login/Registration scripts start---->
   <script>
     // Get the modal
     var modal = document.getElementById('id01');
@@ -510,8 +548,26 @@
             modal.style.display = "none";
         }
     }
-    </script>
 
+    function myFunction() {
+  var x = document.getElementById("email1");
+  x.style.display = "block";
+   
+}
+function myFunctionlogin() {
+  var x = document.getElementById("email1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+   
+}
+
+    </script>
+    
+
+  <!---Login/Registration Scrip end-->
 </body>
 
 </html>

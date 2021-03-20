@@ -15,7 +15,7 @@ app.static_folder = 'static'
 app.secret_key = 'your secret key'  
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'abcd@1234'
+app.config['MYSQL_PASSWORD'] = 'root'
 app.config['MYSQL_DB'] = 'users'
   
 mysql = MySQL(app) 
@@ -25,7 +25,7 @@ responses=["Greeting Name, that's a nice name!","So Name, how are you feeling to
 ["I am sorry to head that😔", "Oh! that's sad😕"],"What do you think is the reason behind that?", 
 ["That's too bad😓 But hey! As it is rightly said, you are bigger and better than whatever is intimidating, scaring or hurting you! So don't lose hope!",
 "That's too bad😓 But hey! As Bob Marley said, you never know how strong you are, until being strong is your only choice. So keep going!"],
-"Would you like to chat more?","It was great talking to you! Have a good day!"]
+"Would you like to chat more?$Yes$No","It was great talking to you! Have a good day!"]
 
 class NaiveBayesClassifier(object):
     def __init__(self, n_gram=1, printing=False):
@@ -93,10 +93,7 @@ def get_bot_response():
     elif iter==7:
         response=responses[iter]
     return response
-    """text = nb.preprocess(userText)
-    print(nb.prediction(text, model), file=sys.stderr)
-    #return str(chatbot.get_response(userText))
-    return text+nb.prediction(text, model)"""
+    
 
 @app.route("/show_chatbot")
 def show_chatbot():
@@ -154,5 +151,4 @@ if __name__ == "__main__":
     f_in.close()
     iter=0
     name=""
-    pred=-1
-    app.run() 
+    app.run(debug=True) 

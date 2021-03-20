@@ -55,6 +55,7 @@
     const msgerForm = get(".msger-inputarea");
     const msgerInput = get(".msger-input");
     const msgerChat = get(".msger-chat");
+    var global_opts;
 
 
     // Icons made by Freepik from www.flaticon.com
@@ -74,9 +75,9 @@
       botResponse(msgText);
     });
 
-    function appendMessage(name, img, side, text) {
+    function appendMessage(name, img, side, text, opts) {
       //   Simple solution for small apps
-      const msgHTML = `
+      var msgHTML = `
 <div class="msg ${side}-msg">
   <div class="msg-img" style="background-image: url(${img})"></div>
 
@@ -90,7 +91,15 @@
   </div>
 </div>
 `;
-
+      if(opts==true) {
+          var opts = global_opts;
+          console.log(opts);
+          //alert(msgHTML.concat("<button>Yes</button>"));
+          for(var i=0; i<opts.length; i++) {
+            msgHTML = msgHTML.concat(`<button class="msg-bubble" id="${i}"><div class="msg-info" onclick='option(${i})' onmouseout='colourchange(${i})'>${opts[i]}</div></button>`);
+          }
+      }
+      //msgHTML = msgHTML.concat(``);
       msgerChat.insertAdjacentHTML("beforeend", msgHTML);
       msgerChat.scrollTop += 500;
     }
@@ -101,9 +110,18 @@
       $.get("/get", { msg: rawText }).done(function (data) {
         console.log(rawText);
         console.log(data);
-        const msgText = data;
-        appendMessage(BOT_NAME, BOT_IMG, "left", msgText);
-
+        data=String(data)
+        var msgText = data;
+        if(data.includes("$"))
+        {
+          resp = data.split("$");
+          msgText = resp[0];
+          console.log(resp[1]);
+          global_opts = resp.slice(1, resp.length);
+          appendMessage(BOT_NAME, BOT_IMG, "left", msgText, true);
+        }
+        else
+        { appendMessage(BOT_NAME, BOT_IMG, "left", msgText, false); }
       });
 
     }
@@ -121,7 +139,15 @@
       return `${h.slice(-2)}:${m.slice(-2)}`;
     }
 
+    function option(i) {
+        var i=i;
+        alert(i);
+    }
 
+    function colourchange(i) {
+        var doc=document.getElementById(i);
+        doc.style.backgroundColor = 'red';
+    }
 
   </script>
 

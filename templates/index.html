@@ -96,7 +96,7 @@
           console.log(opts);
           //alert(msgHTML.concat("<button>Yes</button>"));
           for(var i=0; i<opts.length; i++) {
-            msgHTML = msgHTML.concat(`<button class="msg-bubble" id="${i}" style="  font-size: 16px;margin-left: 40px;width:100px ;"  onMouseOver="this.style.backgroundColor='#1E90FF'"  onMouseOut="this.style.backgroundColor='#DCDCDC'"><div class="msg-info" onclick='option(${i})'  >${opts[i]}</div></button>`);
+            msgHTML = msgHTML.concat(`<button class="msg-bubble" id="${i}" style="  font-size: 16px;margin-left: 40px;width:100px ;"  onMouseOver="this.style.backgroundColor='#1E90FF'"  onMouseOut="this.style.backgroundColor='#DCDCDC'"><div class="msg-info" onclick='option(${i})'>${opts[i]}</div></button>`);
           }
       }
       //msgHTML = msgHTML.concat(``);
@@ -141,14 +141,17 @@
 
     function option(i) {
         var i=i;
-        alert(i);
-    }
+        if (i==0){
+          msgText="Yes"
+        }
+        else{
+          msgText="No"
+        }
+        appendMessage(PERSON_NAME, PERSON_IMG, "right", msgText);
+        msgerInput.value = "";
+        botResponse(msgText);
 
-    function colourchange(i) {
-        var doc=document.getElementById(i);
-        doc.style.backgroundColor = 'red';
     }
-
   </script>
 
 </body>

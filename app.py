@@ -9,6 +9,7 @@ import re
 import datetime
 import random
 from NN.neural import classify
+import sys
 app = Flask(__name__)
 app.static_folder = 'static'
 
@@ -27,6 +28,7 @@ responses=["Greeting Name, that's a nice name!","So Name, how are you feeling to
 "That's too bad😓 But hey! As Bob Marley said, you never know how strong you are, until being strong is your only choice. So keep going!"],
 "Would you like to chat more?$Yes$No","It was great talking to you! Have a good day!"]
 
+phq9=["We would like to ask you a few questions and would like you to rate them on a scale of 1-4"]
 class NaiveBayesClassifier(object):
     def __init__(self, n_gram=1, printing=False):
         self.prior = defaultdict(int)
@@ -91,7 +93,11 @@ def get_bot_response():
         iter+=1
         #Yes/No question. If yes, direct to phq-9 questionnaire
     elif iter==7:
-        response=responses[iter]
+        print(userText,file=sys.stderr)
+        if(userText=="No"):
+            response=responses[iter]
+        elif(userText=="Yes"):
+            response=phq9[0]
     return response
     
 

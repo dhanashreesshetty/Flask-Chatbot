@@ -56,7 +56,7 @@
     const msgerInput = get(".msger-input");
     const msgerChat = get(".msger-chat");
     var global_opts;
-
+    var phq9_weight=0;
 
     // Icons made by Freepik from www.flaticon.com
     const BOT_IMG = "https://image.flaticon.com/icons/svg/327/327779.svg";
@@ -95,14 +95,23 @@
           var opts = global_opts;
           console.log(opts);
           //alert(msgHTML.concat("<button>Yes</button>"));
+          if (opts.length == 2){
           for(var i=0; i<opts.length; i++) {
-            msgHTML = msgHTML.concat(`<button class="msg-bubble" id="${i}" style="  font-size: 16px;margin-left: 40px;width:100px ;"  onMouseOver="this.style.backgroundColor='#1E90FF'"  onMouseOut="this.style.backgroundColor='#DCDCDC'"><div class="msg-info" onclick='option(${i})'>${opts[i]}</div></button>`);
-          }
-      }
+            msgHTML = msgHTML.concat(`<button class="msg-bubble" id="${i}" style="font-size: 16px;margin-left: 40px;width:100px ;"  onMouseOver="this.style.backgroundColor='#1E90FF'"  onMouseOut="this.style.backgroundColor='#DCDCDC'"><div class="msg-info" onclick='option(${i})'>${opts[i]}</div></button>`);
+          }}
+
+          else { 
+          for(var i=0; i<opts.length; i++) {
+            msgHTML = msgHTML.concat(`<button class="msg-bubble" id="${i}" style="display: block;font-size: 14px;margin-left: 60px;width:300px ;"  onMouseOver="this.style.backgroundColor='#1E90FF'"  onMouseOut="this.style.backgroundColor='#DCDCDC'"><div class="msg-info"  style="margin-left: 50px" onclick='option1(${i})'>${opts[i]}</div></button>`);
+          }}
+   
+      } 
+      
       //msgHTML = msgHTML.concat(``);
       msgerChat.insertAdjacentHTML("beforeend", msgHTML);
       msgerChat.scrollTop += 500;
     }
+
 
     function botResponse(rawText) {
 
@@ -120,8 +129,23 @@
           global_opts = resp.slice(1, resp.length);
           appendMessage(BOT_NAME, BOT_IMG, "left", msgText, true);
         }
+        /*else if(data.includes("#"))
+        {
+          msgText=msgText.slice(0, msgText.length -1);
+          global_opts = ["Not At All","Several days","More than half the day","Nearly Every day"]
+          appendMessage(BOT_NAME, BOT_IMG, "left", msgText, true);
+        }*/
+
         else
-        { appendMessage(BOT_NAME, BOT_IMG, "left", msgText, false); }
+        {  if(data.includes("#"))
+        {
+          msgText=msgText.slice(0, msgText.length -1);
+          global_opts = ["Not At All","Several days","More than half the week","Nearly Every day"]
+          appendMessage(BOT_NAME, BOT_IMG, "left", msgText, true);
+        }
+          else{      
+          appendMessage(BOT_NAME, BOT_IMG, "left", msgText, false); }}
+
       });
 
     }
@@ -147,8 +171,30 @@
         else{
           msgText="No"
         }
+        phq9_weight=phq9_weight+i
         appendMessage(PERSON_NAME, PERSON_IMG, "right", msgText);
         msgerInput.value = "";
+        botResponse(msgText);
+
+    }
+    function option1(i) {
+        var i=i;
+        if (i==0){
+          msgText="Not at all" ;
+        }
+        else if (i==1){
+          msgText="Several Days" ;
+        }
+        else if (i==2){
+          msgText="More than half the week" ;
+        }
+        else {
+          msgText="Nearly Everyday";
+        }
+        phq9_weight=phq9_weight+i
+        appendMessage(PERSON_NAME, PERSON_IMG, "right", msgText);
+        msgerInput.value = "";
+        alert(phq9_weight) ;
         botResponse(msgText);
 
     }

@@ -28,7 +28,12 @@ responses=["Greeting Name, that's a nice name!","So Name, how are you feeling to
 "That's too bad😓 But hey! As Bob Marley said, you never know how strong you are, until being strong is your only choice. So keep going!"],
 "Would you like to chat more?$Yes$No","It was great talking to you! Have a good day!"]
 
-phq9=["We would like to ask you a few questions and would like you to rate them on a scale of 1-4"]
+phq9=["We would like to ask u a few questions and would like you to rate them on a scale of 1-4                 Little Interest or Plasure in doing things?#"
+,"Feeling down, depressed,or hopeless#","Trouble in falling or staying asleep or sleeping too much#","Feeling tired or having little energy#",
+"Poor appetite or overeating#","Feeling bad about yourself or that you are a failure or have let yourself or your family down#",
+"Trouble concertrating on things,such as reading the newspaper or watching television#",
+"Moving or speaking so slowly that other people could have noticed or opposite#","Thoughts that you would be better off dead or of hurting yourself#"
+]
 class NaiveBayesClassifier(object):
     def __init__(self, n_gram=1, printing=False):
         self.prior = defaultdict(int)
@@ -52,9 +57,15 @@ class NaiveBayesClassifier(object):
 def home(): 
     return render_template("home.html")
 
+
+#def phq9que():
+
+
+
+
 @app.route("/get")
 def get_bot_response():
-    global iter, name, pred
+    global iter, name, pred ,phq
     userText = request.args.get('msg')
     response=""
     if iter==0:
@@ -97,7 +108,17 @@ def get_bot_response():
         if(userText=="No"):
             response=responses[iter]
         elif(userText=="Yes"):
-            response=phq9[0]
+            response=phq9[phq]
+            phq=phq+1
+            iter+=1
+
+    elif iter==8:
+        if phq<9:
+            response=phq9[phq]
+            phq=phq+1
+        else:
+            response=responses[7]
+    
     return response
     
 
@@ -138,7 +159,7 @@ def loginregister():
             if account: 
                 session['loggedin'] = True
                 session['id'] = account['id'] 
-                session['username'] = account['username'] 
+                session['username'] = account['username']
                 msg = 'Logged in successfully !'
                 return render_template('index.html') 
             else: 
@@ -156,5 +177,6 @@ if __name__ == "__main__":
         model = pickle.load(f_in)
     f_in.close()
     iter=0
+    phq =0
     name=""
     app.run(debug=True) 

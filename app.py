@@ -26,7 +26,7 @@ responses=["Greeting Name, that's a nice name!","So Name, how are you feeling to
 ["I am sorry to head that😔", "Oh! that's sad😕"],"What do you think is the reason behind that?", 
 ["That's too bad😓 But hey! As it is rightly said, you are bigger and better than whatever is intimidating, scaring or hurting you! So don't lose hope!",
 "That's too bad😓 But hey! As Bob Marley said, you never know how strong you are, until being strong is your only choice. So keep going!"],
-"Would you like to chat more?$Yes$No","It was great talking to you! Have a good day!"]
+"Would you like to chat more?$Yes$No","Thank You for answering questions!We will share our analysis.","It was great talking to you! Have a good day!"]
 
 phq9=["We would like to ask u a few questions and would like you to rate them on a scale of 1-4                 Little Interest or Plasure in doing things?#"
 ,"Feeling down, depressed,or hopeless#","Trouble in falling or staying asleep or sleeping too much#","Feeling tired or having little energy#",

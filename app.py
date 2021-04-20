@@ -13,6 +13,13 @@ import sys
 from Recommendation.quotes import scrape
 app = Flask(__name__)
 app.static_folder = 'static'
+from flask_session import Session
+
+app.config['SECRET_KEY'] = "some_random"
+app.config['SESSION_TYPE'] = 'filesystem'
+app.config['SESSION_PERMANENT']= False
+
+Session(app)
 
 app.secret_key = 'your secret key'  
 app.config['MYSQL_HOST'] = 'localhost'
@@ -36,6 +43,7 @@ phq9=["We would like to ask u a few questions and would like you to rate them on
 "Trouble concertrating on things,such as reading the newspaper or watching television#",
 "Moving or speaking so slowly that other people could have noticed or opposite#","Thoughts that you would be better off dead or of hurting yourself#"
 ]
+
 class NaiveBayesClassifier(object):
     def __init__(self, n_gram=1, printing=False):
         self.prior = defaultdict(int)
@@ -61,11 +69,8 @@ def home():
 
 
 #def phq9que():
-
-
-
-
 @app.route("/get")
+
 def get_bot_response():
     global iter, name, pred ,phq , tag1
     userText = request.args.get('msg')
@@ -110,7 +115,9 @@ def get_bot_response():
         print(userText,file=sys.stderr)
         if(userText=="No"):
             response=responses[iter+1]
-            scrape(1,tag1)
+            quote_ans=scrape(1,str(tag1))
+            session['quotes1']=quote_ans[0:4]
+            session['quotes2']=quote_ans[4:]
             iter=9
         elif(userText=="Yes"):
             response=phq9[phq]
@@ -129,20 +136,22 @@ def get_bot_response():
         if(userText=="No"):
             response=responses[iter]
         elif(userText=="Yes"):
-            scrape(1,tag1)
-            return Flask.redirect("/show_recommendation")
-
-
+            quote_ans=scrape(1,tag1)
     return response
-    
-
+   
 @app.route("/show_chatbot")
 def show_chatbot():
     return render_template("index.html")
 
 @app.route("/show_recommendation")
 def show_recommendation():
-    return render_template("recommendation.html")
+    return render_template("recommendation.html",quotes1=get_quotes1(),quotes2=get_quotes2())
+def get_quotes1():
+    quotes1=session['quotes1']
+    return quotes1
+def get_quotes2():
+    quotes2=session['quotes2']
+    return quotes2
 
 
 @app.route('/loginregister', methods =['GET', 'POST']) 
@@ -197,5 +206,6 @@ if __name__ == "__main__":
     f_in.close()
     iter=0
     phq =0
+    quote_ans=["hello"]
     name=""
     app.run(debug=True) 

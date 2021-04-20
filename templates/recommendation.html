@@ -203,7 +203,6 @@
   </header><!-- End Header -->
 
   <main id="main">
-
 <!-------- ########################### Quotes Cards starts############################################################## -->
 <section id="quotes" class="quotes">
     <div class="container my-4">
@@ -234,117 +233,32 @@
 
   <!--First slide-->
   <div class="carousel-item active">
-
+    {% for quote in quotes1 %}
     <div class="col-md-3" style="float:left">
-     <div class="card mb-2">
-        <img class="card-img-top"
-          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+     <div class="card mb-2"style="height:400px">
         <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-          <a class="btn btn-primary">Button</a>
+          <h4 class="card-title">Hello</h4>
+          <p class="card-text" style="text-align:center">{{ quote }}</p>
         </div>
       </div>
-    </div>
-
-    <div class="col-md-3" style="float:left">
-      <div class="card mb-2">
-        <img class="card-img-top"
-          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-          <a class="btn btn-primary">Button</a>
-        </div>
       </div>
-    </div>
-
-    <div class="col-md-3" style="float:left">
-      <div class="card mb-2">
-        <img class="card-img-top"
-          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-          <a class="btn btn-primary">Button</a>
-        </div>
-      </div>
-    </div>
-    
-     <div class="col-md-3" style="float:left">
-     <div class="card mb-2">
-        <img class="card-img-top"
-          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-          <a class="btn btn-primary">Button</a>
-        </div>
-      </div>
-    </div>
-
+    {% endfor %}
   </div>
   <!--/.First slide-->
 
   <!--Second slide-->
   <div class="carousel-item">
 
+    {% for quote in quotes2 %}
     <div class="col-md-3" style="float:left">
-      <div class="card mb-2">
-        <img class="card-img-top"
-          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+     <div class="card mb-2" style="height:400px">
         <div class="card-body">
           <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-          <a class="btn btn-primary">Button</a>
+          <p class="card-text" style="text-align:center">{{ quote }}</p>
         </div>
       </div>
-    </div>
-
-    <div class="col-md-3" style="float:left">
-      <div class="card mb-2">
-        <img class="card-img-top"
-          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-          <a class="btn btn-primary">Button</a>
-        </div>
       </div>
-    </div>
-
-    <div class="col-md-3" style="float:left">
-      <div class="card mb-2">
-        <img class="card-img-top"
-          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-          <a class="btn btn-primary">Button</a>
-        </div>
-      </div>
-    </div>
-    
-    <div class="col-md-3" style="float:left">
-      <div class="card mb-2">
-        <img class="card-img-top"
-          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-          <a class="btn btn-primary">Button</a>
-        </div>
-      </div>
-    </div>
-
+    {% endfor %}
   </div>
   <!--/.Second slide-->
 
@@ -933,7 +847,8 @@ function myFunctionlogin() {
     </script>
     
 
-  <!---Login/Registration Scrip end-->
+  <!---Login/Registration Script end-->
+ 
 </body>
 
 </html>

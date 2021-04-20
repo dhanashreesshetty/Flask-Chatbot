@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import requests
 import urllib.request
+import random
 
 authors =[]
 quotes =[]
@@ -16,11 +17,13 @@ def scrape(page_number,tag):
 
   for i in quoteText:
     quote = i.text.strip().split('\n')[0]
-    print(quote)
     author = i.find('span',attrs={'class':'authorOrTitle'}).text.strip()
-    print(author)
-    quotes.append(quote)
+    q="--------".join([quote, author])
+    quotes.append(q)
     authors.append(author)
-
-print(quotes)
-#scrape(1,fear)
+  quotes_display=[]
+  if len(quotes)>0:
+    for i in range(8):
+      quotes_display.append(quotes[i])
+  return quotes_display
+"""scrape(1,"fear")"""

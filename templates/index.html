@@ -32,7 +32,7 @@
           </div>
 
           <div class="msg-text">
-            Hi, I am ChatBuddy! I talk to people and help them boost their mood😄
+            Hi, I am ChatBuddy! I talk to people and help them boost their moods"
           </div>
           <div class="msg-text">
             What is your name? 
@@ -99,7 +99,11 @@
           for(var i=0; i<opts.length; i++) {
             msgHTML = msgHTML.concat(`<button class="msg-bubble" id="${i}" style="font-size: 16px;margin-left: 40px;width:100px ;"  onMouseOver="this.style.backgroundColor='#1E90FF'"  onMouseOut="this.style.backgroundColor='#DCDCDC'"><div class="msg-info" onclick='option(${i})'>${opts[i]}</div></button>`);
           }}
-
+          else if (opts.length == 3){
+          for(var i=0; i<opts.length-1; i++) {
+            msgHTML = msgHTML.concat(`<button class="msg-bubble" id="${i}" style="font-size: 16px;display: block;margin-left: 40px;width:250px ;"  onMouseOver="this.style.backgroundColor='#1E90FF'"  onMouseOut="this.style.backgroundColor='#DCDCDC'"><div class="msg-info" onclick='option2(${i})'>${opts[i]}</div></button>`);
+          }}
+        
           else { 
           for(var i=0; i<opts.length; i++) {
             msgHTML = msgHTML.concat(`<button class="msg-bubble" id="${i}" style="display: block;font-size: 14px;margin-left: 60px;width:300px ;"  onMouseOver="this.style.backgroundColor='#1E90FF'"  onMouseOut="this.style.backgroundColor='#DCDCDC'"><div class="msg-info"  style="margin-left: 50px" onclick='option1(${i})'>${opts[i]}</div></button>`);
@@ -128,6 +132,7 @@
           console.log(resp[1]);
           global_opts = resp.slice(1, resp.length);
           appendMessage(BOT_NAME, BOT_IMG, "left", msgText, true);
+          
         }
         /*else if(data.includes("#"))
         {
@@ -144,7 +149,37 @@
           appendMessage(BOT_NAME, BOT_IMG, "left", msgText, true);
         }
           else{      
-          appendMessage(BOT_NAME, BOT_IMG, "left", msgText, false); }}
+
+            if(data.includes("%"))
+        {
+          msgText=msgText.slice(0, msgText.length -1);
+          msgText=msgText+"     our Phq-9 test has predicted that you have ";
+          if (phq9_weight<=4 )
+          {
+            msgText=msgText+"Minimal Depression."
+          }
+          else if (phq9_weight<=9){
+            msgText=msgText+"Mild Depression"
+
+          }          
+          else if (phq9_weight<=14){
+            msgText=msgText+"Moderate Depression"
+
+          }
+          else if (phq9_weight<=19){
+            msgText=msgText+"Moderately severe Depression.Please contact :- 09820466726 for counselling."
+
+          }          
+          else if (phq9_weight<=27){
+            msgText=msgText+"Severe Depression.Please contact:- 09820466726 for counselling."
+
+          }
+          
+          appendMessage(BOT_NAME, BOT_IMG, "left", msgText, false);
+        }
+
+         else{ appendMessage(BOT_NAME, BOT_IMG, "left", msgText, false);}
+         }}
 
       });
 
@@ -168,6 +203,7 @@
         if (i==0){
           msgText="Yes"
         }
+        
         else{
           msgText="No"
         }
@@ -194,10 +230,23 @@
         phq9_weight=phq9_weight+i
         appendMessage(PERSON_NAME, PERSON_IMG, "right", msgText);
         msgerInput.value = "";
-        alert(phq9_weight) ;
         botResponse(msgText);
 
     }
+
+    function option2(i) {
+        var i=i;
+        if (i==0){
+          window.location.href = "{{ url_for('show_recommendation') }}";
+        }
+                else {
+          msgText="Nearly Everyday";
+        }
+        
+    }
+
+
+
   </script>
 
 </body>

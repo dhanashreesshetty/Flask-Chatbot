@@ -10,6 +10,7 @@ import datetime
 import random
 from NN.neural import classify
 import sys
+from Recommendation.quotes import scrape
 app = Flask(__name__)
 app.static_folder = 'static'
 
@@ -26,7 +27,8 @@ responses=["Greeting Name, that's a nice name!","So Name, how are you feeling to
 ["I am sorry to head that😔", "Oh! that's sad😕"],"What do you think is the reason behind that?", 
 ["That's too bad😓 But hey! As it is rightly said, you are bigger and better than whatever is intimidating, scaring or hurting you! So don't lose hope!",
 "That's too bad😓 But hey! As Bob Marley said, you never know how strong you are, until being strong is your only choice. So keep going!"],
-"Would you like to chat more?$Yes$No","Thank You for answering questions!We will share our analysis.","It was great talking to you! Have a good day!"]
+"Would you like to chat more?$Yes$No","Thank You for answering questions,Name!So our analysis is .%",
+"It was great talking to you! Have a good day!Woud you like to see some recommendation to stay positive?$Show Recommendation$No Thank You$ok"]
 
 phq9=["We would like to ask u a few questions and would like you to rate them on a scale of 1-4                 Little Interest or Plasure in doing things?#"
 ,"Feeling down, depressed,or hopeless#","Trouble in falling or staying asleep or sleeping too much#","Feeling tired or having little energy#",
@@ -65,7 +67,7 @@ def home():
 
 @app.route("/get")
 def get_bot_response():
-    global iter, name, pred ,phq
+    global iter, name, pred ,phq , tag1
     userText = request.args.get('msg')
     response=""
     if iter==0:
@@ -95,6 +97,7 @@ def get_bot_response():
             iter=5
     elif iter==5:
         resp=classify(userText)
+        tag1=resp
         print(resp)
         #detect sentiment of usertext to use in recommendation model here
         response=random.choice(responses[iter])
@@ -106,7 +109,9 @@ def get_bot_response():
     elif iter==7:
         print(userText,file=sys.stderr)
         if(userText=="No"):
-            response=responses[iter]
+            response=responses[iter+1]
+            scrape(1,tag1)
+            iter=9
         elif(userText=="Yes"):
             response=phq9[phq]
             phq=phq+1
@@ -117,14 +122,28 @@ def get_bot_response():
             response=phq9[phq]
             phq=phq+1
         else:
-            response=responses[7]
-    
+            response=re.sub("Name",name,responses[7])
+
+    elif iter==9:
+        #print(userText,file=sys.stderr)
+        if(userText=="No"):
+            response=responses[iter]
+        elif(userText=="Yes"):
+            scrape(1,tag1)
+            return Flask.redirect("/show_recommendation")
+
+
     return response
     
 
 @app.route("/show_chatbot")
 def show_chatbot():
     return render_template("index.html")
+
+@app.route("/show_recommendation")
+def show_recommendation():
+    return render_template("recommendation.html")
+
 
 @app.route('/loginregister', methods =['GET', 'POST']) 
 def loginregister(): 
@@ -150,7 +169,7 @@ def loginregister():
                 cursor.execute('INSERT INTO accounts VALUES (NULL, % s, % s, % s)', (username, password, email, )) 
                 mysql.connection.commit() 
                 msg = 'You have successfully registered !'
-                return render_template('index.html')   
+                return render_template('index.html')
 
         else:
             cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor) 

@@ -1,0 +1,302 @@
+[
+    {
+        "imdb_link": "https://www.imdb.com/title/tt6741278/?ref_=adv_li_tt",
+        "title": "Invincible",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMmE1ODVhMGYtODYyYS00Mjc4LWIzN2EtYWZkZDg1MTUyNDkxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt2560140/?ref_=adv_li_tt",
+        "title": "Shingeki no kyojin",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTY5ODk1NzUyMl5BMl5BanBnXkFtZTgwMjUyNzEyMTE@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt5109280/?ref_=adv_li_tt",
+        "title": "Raya and the Last Dragon",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZWNiOTc4NGItNGY4YS00ZGNkLThkOWEtMDE2ODcxODEwNjkwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0096697/?ref_=adv_li_tt",
+        "title": "The Simpsons",
+        "genre": "Animation, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjFkMTlkYWUtZWFhNy00M2FmLThiOTYtYTRiYjVlZWYxNmJkXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0182576/?ref_=adv_li_tt",
+        "title": "Family Guy",
+        "genre": "Animation, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BODEwZjEzMjAtNjQxMy00Yjc4LWFlMDAtYjhjZTAxNDU3OTg3XkEyXkFqcGdeQXVyOTM2NTM4MjA@._V1_UY98_CR3,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt2948372/?ref_=adv_li_tt",
+        "title": "Soul",
+        "genre": "Animation, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZGE1MDg5M2MtNTkyZS00MTY5LTg1YzUtZTlhZmM1Y2EwNmFmXkEyXkFqcGdeQXVyNjA3OTI0MDc@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt2861424/?ref_=adv_li_tt",
+        "title": "Rick and Morty",
+        "genre": "Animation, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZjRjOTFkOTktZWUzMi00YzMyLThkMmYtMjEwNmQyNzliYTNmXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt5626028/?ref_=adv_li_tt",
+        "title": "Boku no h\u00eer\u00f4 akademia",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNmQzYmE2MGEtZjk4YS00YmVjLWEwZWMtODRkMjc4MTM5N2I3XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UY98_CR5,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt2580046/?ref_=adv_li_tt",
+        "title": "Miraculous: Tales of Ladybug & Cat Noir",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDhkYmNjMTUtNmJhZC00NDVmLTljMGYtMmY5MWFiZDVjNDc0XkEyXkFqcGdeQXVyNjc0MjcxMDk@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt3554046/?ref_=adv_li_tt",
+        "title": "Space Jam: A New Legacy",
+        "genre": "Animation, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjg3NmUwYjctMmIzYS00ZTNiLTlhNTYtMWMxNzE5YWIzNmQ4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt1361336/?ref_=adv_li_tt",
+        "title": "Tom and Jerry",
+        "genre": "Animation, Comedy, Family",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYzE3ODhiNzAtOWY4MS00NTdiLThmNDctNDM4NjRiNGFmYjI1XkEyXkFqcGdeQXVyMTI2ODM1ODUw._V1_UY98_CR5,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt8910922/?ref_=adv_li_tt",
+        "title": "Solar Opposites",
+        "genre": "Animation, Comedy, Sci-Fi",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMWUwMjQ1NzgtNmVkNS00ZWYzLWJmYjQtZjgwM2FhMjA1ZmRhXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0388629/?ref_=adv_li_tt",
+        "title": "One Piece: Wan p\u00eesu",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BODcwNWE3OTMtMDc3MS00NDFjLWE1OTAtNDU3NjgxODMxY2UyXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt3398228/?ref_=adv_li_tt",
+        "title": "BoJack Horseman",
+        "genre": "Animation, Comedy, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYWQwMDNkM2MtODU4OS00OTY3LTgwOTItNjE2Yzc0MzRkMDllXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt1561755/?ref_=adv_li_tt",
+        "title": "Bob's Burgers",
+        "genre": "Animation, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZGJiNmM1NDctNWUxYS00YzE4LWJjNTgtYTJhYzE0NjFmMTMwXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt7658402/?ref_=adv_li_tt",
+        "title": "Harley Quinn",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNWRhMTVhNjgtZjcyMS00N2YzLWI2N2QtNTYwMGFlOTdmMGY1XkEyXkFqcGdeQXVyMjkyNzYwMTc@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0458290/?ref_=adv_li_tt",
+        "title": "Star Wars: The Clone Wars",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZWFlNzRmOTItZjY1Ni00ZjZkLTk5MDgtOGFhOTYzNWFhYzhmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt9335498/?ref_=adv_li_tt",
+        "title": "Demon Slayer: Kimetsu No Yaiba",
+        "genre": "Animation, Action, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZjZjNzI5MDctY2Y4YS00NmM4LTljMmItZTFkOTExNGI3ODRhXkEyXkFqcGdeQXVyNjc3MjQzNTI@._V1_UY98_CR1,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt12343534/?ref_=adv_li_tt",
+        "title": "Jujutsu Kaisen",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzQyYzU3Y2MtOWY2Yy00ZGM2LTg3ZTUtMDJkZTJiMmEzMjYxXkEyXkFqcGdeQXVyMTI2NTY3NDg5._V1_UY98_CR5,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0121955/?ref_=adv_li_tt",
+        "title": "South Park",
+        "genre": "Animation, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOGE2YWUzMDItNTg2Ny00NTUzLTlmZGYtNWMyNzVjMjQ3MThkXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt13269670/?ref_=adv_li_tt",
+        "title": "Xin Shen Bang: Ne Zha Chongsheng",
+        "genre": "Animation, Action, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZmU0ZTQ1OWYtOTcyMi00OWVmLWJkNmEtY2I5OGEwYTJmM2Q1XkEyXkFqcGdeQXVyNDM1Nzc0MTI@._V1_UY98_CR1,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt11032374/?ref_=adv_li_tt",
+        "title": "Kimetsu no Yaiba: Mugen Ressha-Hen",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BODI2NjdlYWItMTE1ZC00YzI2LTlhZGQtNzE3NzA4MWM0ODYzXkEyXkFqcGdeQXVyNjU1OTg4OTM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt14069590/?ref_=adv_li_tt",
+        "title": "Dota: Dragon's Blood",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjVjYmQ4N2QtNzc1Yi00MzI0LTlmNWMtZTU2MjcxYzIwYmY4XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0417299/?ref_=adv_li_tt",
+        "title": "Avatar: The Last Airbender",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BODc5YTBhMTItMjhkNi00ZTIxLWI0YjAtNTZmOTY0YjRlZGQ0XkEyXkFqcGdeQXVyODUwNjEzMzg@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt5198068/?ref_=adv_li_tt",
+        "title": "WolfWalkers",
+        "genre": "Animation, Adventure, Family",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTA4MWQ4NGUtOGQ0MS00M2QyLWE5MDItZWM2YzA0ZDgxZTA2XkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt1486217/?ref_=adv_li_tt",
+        "title": "Archer",
+        "genre": "Animation, Action, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTg3NTMwMzY2OF5BMl5BanBnXkFtZTgwMDcxMjQ0NDE@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0298148/?ref_=adv_li_tt",
+        "title": "Shrek 2",
+        "genre": "Animation, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDJhMGRjN2QtNDUxYy00NGM3LThjNGQtMmZiZTRhNjM4YzUxL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt10168312/?ref_=adv_li_tt",
+        "title": "What If...?",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BN2I1NGViZTEtMDc1MC00YTRjLWIwMjItYzcxN2I2NWViMjQ4XkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_UY98_CR3,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0877057/?ref_=adv_li_tt",
+        "title": "Death Note: Desu n\u00f4to",
+        "genre": "Animation, Crime, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BODkzMjhjYTQtYmQyOS00NmZlLTg3Y2UtYjkzN2JkNmRjY2FhXkEyXkFqcGdeQXVyNTM4MDQ5MDc@._V1_UY98_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt2098220/?ref_=adv_li_tt",
+        "title": "Hunter x Hunter",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZjNmZDhkN2QtNDYyZC00YzJmLTg0ODUtN2FjNjhhMzE3ZmUxXkEyXkFqcGdeQXVyNjc2NjA5MTU@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0126029/?ref_=adv_li_tt",
+        "title": "Shrek",
+        "genre": "Animation, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOGZhM2FhNTItODAzNi00YjA0LWEyN2UtNjJlYWQzYzU1MDg5L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt13357124/?ref_=adv_li_tt",
+        "title": "Gokushufudo",
+        "genre": "Animation, Action, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOWZhZTE1NDAtODQ5Yy00NDQ3LWE5ZDctMTZjZmU5OGFiZWYwXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_UY98_CR1,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt6105098/?ref_=adv_li_tt",
+        "title": "The Lion King",
+        "genre": "Animation, Adventure, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt4633694/?ref_=adv_li_tt",
+        "title": "Spider-Man: Into the Spider-Verse",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0988824/?ref_=adv_li_tt",
+        "title": "Naruto: Shipp\u00fbden",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTE5NzIwMGUtYTE1MS00MDUxLTgyZjctOWVkZDAxM2M4ZWQ4XkEyXkFqcGdeQXVyNjc2NjA5MTU@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt2850386/?ref_=adv_li_tt",
+        "title": "The Croods: A New Age",
+        "genre": "Animation, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNGU1NGNiYzYtMTQ2Ni00M2ZlLTg0N2QtMDFhMzNjNzcyMGYyXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt3521164/?ref_=adv_li_tt",
+        "title": "Moana",
+        "genre": "Animation, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjI4MzU5NTExNF5BMl5BanBnXkFtZTgwNzY1MTEwMDI@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt8788458/?ref_=adv_li_tt",
+        "title": "Yakusoku no Neverland",
+        "genre": "Animation, Adventure, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTYwYjYyZDgtMTQ3My00YTI4LThmZTUtZmU1MjllOWRlOTdhXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0397306/?ref_=adv_li_tt",
+        "title": "American Dad!",
+        "genre": "Animation, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDRkOWIyOTUtMjg5YS00OTJjLTgwNGYtMjgxMTA0NWQ2NGI3L2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0149460/?ref_=adv_li_tt",
+        "title": "Futurama",
+        "genre": "Animation, Comedy, Sci-Fi",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzA2ZDk2ZTUtMWU2Yi00NDVmLTk1ODEtMmFmMjQyNWYzODI0XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt7441658/?ref_=adv_li_tt",
+        "title": "Black Clover",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTAzYTlkMWEtOTNjZC00ZDU0LWI5ODUtYTRmYzY0MTAzYWZlXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt6317068/?ref_=adv_li_tt",
+        "title": "Final Space",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BODRjZGY3ZDktZGIxOC00MWUzLTg1N2EtNDM1NTQ2ZTkxYjc1XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_UY98_CR8,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt1355642/?ref_=adv_li_tt",
+        "title": "Hagane no renkinjutsushi",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZmEzN2YzOTItMDI5MS00MGU4LWI1NWQtOTg5ZThhNGQwYTEzXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UY98_CR1,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0110357/?ref_=adv_li_tt",
+        "title": "The Lion King",
+        "genre": "Animation, Adventure, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt3909224/?ref_=adv_li_tt",
+        "title": "Nanatsu no taizai",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BM2VmODMyZTUtOWFkNC00OGI5LTg5NjEtMjFiMjU0MDQxMDcyXkEyXkFqcGdeQXVyMTI2NTY3NDg5._V1_UY98_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0245429/?ref_=adv_li_tt",
+        "title": "Sen to Chihiro no kamikakushi",
+        "genre": "Animation, Adventure, Family",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt8146754/?ref_=adv_li_tt",
+        "title": "Infinity Train",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BODMyNGMxZGEtY2RiZS00YTViLWIzYTctMmFhZDNmZTIyMTczXkEyXkFqcGdeQXVyOTk3NjY3NTM@._V1_UY98_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt2948356/?ref_=adv_li_tt",
+        "title": "Zootopia",
+        "genre": "Animation, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOTMyMjEyNzIzMV5BMl5BanBnXkFtZTgwNzIyNjU0NzE@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt6524350/?ref_=adv_li_tt",
+        "title": "Big Mouth",
+        "genre": "Animation, Comedy, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMzg0YzQzZTctOGM3OS00ZDE1LThiZDQtYzg4MTc1ZDUxZDM2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0117705/?ref_=adv_li_tt",
+        "title": "Space Jam",
+        "genre": "Animation, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDgyZTI2YmYtZmI4ZC00MzE0LWIxZWYtMWRlZWYxNjliNTJjXkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_UY98_CR2,0,67,98_AL_.jpg"
+    }
+]

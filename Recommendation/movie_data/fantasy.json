@@ -1,0 +1,302 @@
+[
+    {
+        "imdb_link": "https://www.imdb.com/title/tt10121392/?ref_=adv_li_tt",
+        "title": "Thunder Force",
+        "genre": "Action, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMWZkM2I2NjEtNWM0Mi00MTgwLWJlYTAtYmNkZWYzNmQ1ZTBiXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0293429/?ref_=adv_li_tt",
+        "title": "Mortal Kombat",
+        "genre": "Action, Adventure, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BY2ZlNWIxODMtN2YwZi00ZjNmLWIyN2UtZTFkYmZkNDQyNTAyXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt8697870/?ref_=adv_li_tt",
+        "title": "The Nevers",
+        "genre": "Action, Drama, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BODEyOWY2ZDctOGI3Zi00YjYwLWIwZDEtMzJlY2VhYTA2N2ViXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt5774002/?ref_=adv_li_tt",
+        "title": "Jupiter's Legacy",
+        "genre": "Action, Adventure, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDU4MWViOGItZGJjYi00YjczLTk1YmMtY2ZmNmY4YTllNDA0XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UY98_CR5,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0944947/?ref_=adv_li_tt",
+        "title": "Game of Thrones",
+        "genre": "Action, Adventure, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_UY98_CR2,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt12361974/?ref_=adv_li_tt",
+        "title": "Zack Snyder's Justice League",
+        "genre": "Action, Adventure, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjI3NDg0ZTEtMDEwYS00YWMyLThjYjktMTNlM2NmYjc1OGRiXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt6741278/?ref_=adv_li_tt",
+        "title": "Invincible",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMmE1ODVhMGYtODYyYS00Mjc4LWIzN2EtYWZkZDg1MTUyNDkxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt2222042/?ref_=adv_li_tt",
+        "title": "Love and Monsters",
+        "genre": "Action, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYWVkMWEyMDUtZTVmOC00MTYxLWE1ZTUtNjk4M2IzMjY2OTIxXkEyXkFqcGdeQXVyMDk5Mzc5MQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt2560140/?ref_=adv_li_tt",
+        "title": "Shingeki no kyojin",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTY5ODk1NzUyMl5BMl5BanBnXkFtZTgwMjUyNzEyMTE@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt9140560/?ref_=adv_li_tt",
+        "title": "WandaVision",
+        "genre": "Action, Comedy, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjJiZmE5ZDgtYWUxZi00MWI1LTg2MmEtZmUwZGE2YzRkNTE5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt10893694/?ref_=adv_li_tt",
+        "title": "The Irregulars",
+        "genre": "Crime, Drama, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZDRmNjVmODUtZjc0Zi00YTVkLWJhZjYtNjRjYmJiMjU4ODJkXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt3006802/?ref_=adv_li_tt",
+        "title": "Outlander",
+        "genre": "Drama, Fantasy, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzE3ZTYxZWYtMjQ1Ny00MzFhLWI1MGMtMDZmMzYwYjc1OWQ0XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt4574334/?ref_=adv_li_tt",
+        "title": "Stranger Things",
+        "genre": "Drama, Fantasy, Horror",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjEzMDAxOTUyMV5BMl5BanBnXkFtZTgwNzAxMzYzOTE@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0460681/?ref_=adv_li_tt",
+        "title": "Supernatural",
+        "genre": "Drama, Fantasy, Horror",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzRmZWJhNjUtY2ZkYy00N2MyLWJmNTktOTAwY2VkODVmOGY3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt9484998/?ref_=adv_li_tt",
+        "title": "Palm Springs",
+        "genre": "Comedy, Fantasy, Mystery",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjk0MTgzMmQtZmY2My00NmE5LWExNGUtYjZkNTA3ZDkyMTJiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt2076822/?ref_=adv_li_tt",
+        "title": "Chaos Walking",
+        "genre": "Action, Adventure, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTcxYTk3MWQtZThlMS00ZjQ0LTg0NjktNGVkNWM2MTAyYWJmXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt5109280/?ref_=adv_li_tt",
+        "title": "Raya and the Last Dragon",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZWNiOTc4NGItNGY4YS00ZGNkLThkOWEtMDE2ODcxODEwNjkwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt2403776/?ref_=adv_li_tt",
+        "title": "Shadow and Bone",
+        "genre": "Action, Drama, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTNhY2JlMmItMGMzZi00ZTM2LTlmNTItZDBkMGVhNGJhYWRhXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UY98_CR5,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt4052886/?ref_=adv_li_tt",
+        "title": "Lucifer",
+        "genre": "Crime, Drama, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzY1YjIxOGMtOTAyZC00YTcyLWFhMzQtZTJkYTljYzU0MGRlXkEyXkFqcGdeQXVyMTAwMzM3NDI3._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt7126948/?ref_=adv_li_tt",
+        "title": "Wonder Woman 1984",
+        "genre": "Action, Adventure, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTlhNzJjYzYtNGU3My00ZDI5LTgzZDUtYzllYjU1ZmU0YTgwXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0411008/?ref_=adv_li_tt",
+        "title": "Lost",
+        "genre": "Adventure, Drama, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzhlY2E5NDUtYjJjYy00ODg3LWFkZWQtYTVmMzU4ZWZmOWJkXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt5180504/?ref_=adv_li_tt",
+        "title": "The Witcher",
+        "genre": "Action, Adventure, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOGE4MmVjMDgtMzIzYy00NjEwLWJlODMtMDI1MGY2ZDlhMzE2XkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt3741700/?ref_=adv_li_tt",
+        "title": "Godzilla: King of the Monsters",
+        "genre": "Action, Adventure, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOGFjYWNkMTMtMTg1ZC00Y2I4LTg0ZTYtN2ZlMzI4MGQwNzg4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt1405406/?ref_=adv_li_tt",
+        "title": "The Vampire Diaries",
+        "genre": "Drama, Fantasy, Horror",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDk3YzgxNDQtNTEzOS00NDMyLWFlYmYtYTZlMDk1NDkxNmMyXkEyXkFqcGdeQXVyNzA5NjUyNjM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt9140554/?ref_=adv_li_tt",
+        "title": "Loki",
+        "genre": "Action, Adventure, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOGU0OWQyMjItYzA4Zi00MDFiLThiZWQtZmEyNWRiODAzYzNmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt1201607/?ref_=adv_li_tt",
+        "title": "Harry Potter and the Deathly Hallows: Part 2",
+        "genre": "Adventure, Drama, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMGVmMWNiMDktYjQ0Mi00MWIxLTk0N2UtN2ZlYTdkN2IzNDNlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0974015/?ref_=adv_li_tt",
+        "title": "Justice League",
+        "genre": "Action, Adventure, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYWVhZjZkYTItOGIwYS00NmRkLWJlYjctMWM0ZjFmMDU4ZjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt2948372/?ref_=adv_li_tt",
+        "title": "Soul",
+        "genre": "Animation, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZGE1MDg5M2MtNTkyZS00MTY5LTg1YzUtZTlhZmM1Y2EwNmFmXkEyXkFqcGdeQXVyNjA3OTI0MDc@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt1043813/?ref_=adv_li_tt",
+        "title": "Titans",
+        "genre": "Action, Adventure, Crime",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOGIxMzE1MTEtMzViYi00MWI5LTllOTUtMmZkYzM3NmIyNTZlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt3731562/?ref_=adv_li_tt",
+        "title": "Kong: Skull Island",
+        "genre": "Action, Adventure, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZDg0OGM1NWEtNDEwOC00OTE2LTliZWEtNzg1MTZkNjFlMmNhXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0118276/?ref_=adv_li_tt",
+        "title": "Buffy the Vampire Slayer",
+        "genre": "Action, Drama, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BY2MwOGIyZGYtNzgxZC00N2Q5LTllYjItM2U4MTkwMDBjYzUyXkEyXkFqcGdeQXVyNzA5NjUyNjM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt8103070/?ref_=adv_li_tt",
+        "title": "Legacies",
+        "genre": "Adventure, Drama, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZmMwNDczMDUtNDU0Mi00MjIyLWI1NTktNzM4Yzc1MTNmZDIxXkEyXkFqcGdeQXVyOTQ0NTEzMzk@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt1831804/?ref_=adv_li_tt",
+        "title": "The Stand",
+        "genre": "Adventure, Drama, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjNjNDdhZGUtZWZmZS00ZDk3LTg0MzQtZmU5MDExY2Q1ZjYzXkEyXkFqcGdeQXVyNjEwNTM2Mzc@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt1843230/?ref_=adv_li_tt",
+        "title": "Once Upon a Time",
+        "genre": "Adventure, Fantasy, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjBmZmI0ZDktODI2MS00MDU1LTk0NDYtNGE0MDc0OWVkYzcwXkEyXkFqcGdeQXVyMzAzNTY3MDM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0241527/?ref_=adv_li_tt",
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "genre": "Adventure, Family, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjQ3NWNlNmQtMTE5ZS00MDdmLTlkZjUtZTBlM2UxMGFiMTU3XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt5626028/?ref_=adv_li_tt",
+        "title": "Boku no h\u00eer\u00f4 akademia",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNmQzYmE2MGEtZjk4YS00YmVjLWEwZWMtODRkMjc4MTM5N2I3XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UY98_CR5,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt12976292/?ref_=adv_li_tt",
+        "title": "Powerpuff",
+        "genre": "Action, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMWQ0ZjNhMzMtYTU1Yi00ZDM3LWIzMGUtMmZjYWYyMjNjNDc0XkEyXkFqcGdeQXVyNzg4MTU3MDk@._V1_UY98_CR60,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt10648342/?ref_=adv_li_tt",
+        "title": "Thor: Love and Thunder",
+        "genre": "Action, Adventure, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMzZjMTIwNjYtYTg0ZS00ZDFjLTk3MDctMTY3ZTgwMjQ4MmFiXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_UY98_CR1,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt1477834/?ref_=adv_li_tt",
+        "title": "Aquaman",
+        "genre": "Action, Adventure, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOTk5ODg0OTU5M15BMl5BanBnXkFtZTgwMDQ3MDY3NjM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt1567432/?ref_=adv_li_tt",
+        "title": "Teen Wolf",
+        "genre": "Action, Drama, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMThlNTk3YzMtOTZjMi00M2NiLTg1NTgtYThiYzE2MDFmMDUwXkEyXkFqcGdeQXVyNzA5NjUyNjM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0417741/?ref_=adv_li_tt",
+        "title": "Harry Potter and the Half-Blood Prince",
+        "genre": "Action, Adventure, Family",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzU3NDg4NTAyNV5BMl5BanBnXkFtZTcwOTg2ODg1Mg@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt2580046/?ref_=adv_li_tt",
+        "title": "Miraculous: Tales of Ladybug & Cat Noir",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDhkYmNjMTUtNmJhZC00NDVmLTljMGYtMmY5MWFiZDVjNDc0XkEyXkFqcGdeQXVyNjc0MjcxMDk@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt3554046/?ref_=adv_li_tt",
+        "title": "Space Jam: A New Legacy",
+        "genre": "Animation, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjg3NmUwYjctMmIzYS00ZTNiLTlhNTYtMWMxNzE5YWIzNmQ4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0120737/?ref_=adv_li_tt",
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "genre": "Action, Adventure, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt6475714/?ref_=adv_li_tt",
+        "title": "Monster Hunter",
+        "genre": "Action, Adventure, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOGU3NTFmNjYtODc3Ny00MWEzLWI3M2ItZjE3NDgwMTI0MzkzXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt4878326/?ref_=adv_li_tt",
+        "title": "Wynonna Earp",
+        "genre": "Action, Drama, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDM1MGJhY2MtNjBhNC00Yzc0LWE5ZGUtNzY3MmNjOWE4YTM2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt2177461/?ref_=adv_li_tt",
+        "title": "A Discovery of Witches",
+        "genre": "Drama, Fantasy, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDQ1MDc2MjYtZjBhMi00ZjRlLWE5NDctMTVjNzNjMDc5ZGNmXkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_UY98_CR2,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0113855/?ref_=adv_li_tt",
+        "title": "Mortal Kombat",
+        "genre": "Action, Adventure, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjY5NTEzZGItMGY3My00NzE4LThkYTUtYjJkNzk3MDBiMWE3XkEyXkFqcGdeQXVyNzg5MDE1MDk@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt3501632/?ref_=adv_li_tt",
+        "title": "Thor: Ragnarok",
+        "genre": "Action, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "imdb_link": "https://www.imdb.com/title/tt0844441/?ref_=adv_li_tt",
+        "title": "True Blood",
+        "genre": "Drama, Fantasy, Mystery",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDVjZDQ2N2MtMzMxYy00ZjliLTg5YjAtNjk1OTUwYjVjNWQ0XkEyXkFqcGdeQXVyNzA5NjUyNjM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    }
+]

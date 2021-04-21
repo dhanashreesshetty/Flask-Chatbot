@@ -11,6 +11,8 @@ import random
 from NN.neural import classify
 import sys
 from Recommendation.quotes import scrape
+from Recommendation.songs import songs
+
 app = Flask(__name__)
 app.static_folder = 'static'
 from flask_session import Session
@@ -118,6 +120,11 @@ def get_bot_response():
             quote_ans=scrape(1,str(tag1))
             session['quotes1']=quote_ans[0:4]
             session['quotes2']=quote_ans[4:]
+            #music
+            song_ans=songs(tag1)
+            session['songs1']=song_ans[0:4]
+            session['songs2']=song_ans[4:]
+            print(song_ans)
             if str(tag1)=="joy":
                 book_tag="happy"
             iter=9
@@ -147,7 +154,8 @@ def show_chatbot():
 
 @app.route("/show_recommendation")
 def show_recommendation():
-    return render_template("recommendation.html",quotes1=get_quotes1(),quotes2=get_quotes2())
+    return render_template("recommendation.html",quotes1=get_quotes1(),quotes2=get_quotes2(),songs1=session['songs1'],songs2=session['songs2'])
+
 def get_quotes1():
     quotes1=session['quotes1']
     return quotes1

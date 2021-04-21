@@ -269,6 +269,7 @@
 
 </div>
 <!--/.Carousel Wrapper-->
+</div>
 </section>
 <!--------############################## Quotes Cards end ############################################################################### -->
 
@@ -431,153 +432,70 @@
 <section id="music" class="music">
     <div class="container my-4">
     
+
 <!--Carousel Wrapper-->
 <div id="multi-item-example" class="carousel slide carousel-multi-item" >
 
-<!--Controls-->
-<center>
-<div class="controls-top">
-  <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
-  <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
-  <h1></h1>
-</div>
-</center>
-<!-- Controls-->
-
-<!--Indicators-->
-<ol class="carousel-indicators">
-  <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-  <li data-target="#multi-item-example" data-slide-to="1"></li>
+  <!--Controls-->
+  <center>
+  <div class="controls-top">
+    <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+    <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+    <h1></h1>
+  </div>
+  </center>
+  <!-- Controls-->
   
-</ol>
-<!--/.Indicators-->
-
-<!--Slides-->
-<div class="carousel-inner" role="listbox">
-
-  <!--First slide-->
-  <div class="carousel-item active">
-
-    <div class="col-md-3" style="float:left">
-     <div class="card mb-2">
-        <img class="card-img-top"
-          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-          <a class="btn btn-primary">Button</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-3" style="float:left">
-      <div class="card mb-2">
-        <img class="card-img-top"
-          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-          <a class="btn btn-primary">Button</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-3" style="float:left">
-      <div class="card mb-2">
-        <img class="card-img-top"
-          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-          <a class="btn btn-primary">Button</a>
-        </div>
-      </div>
-    </div>
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+    <li data-target="#multi-item-example" data-slide-to="1"></li>
     
-     <div class="col-md-3" style="float:left">
-     <div class="card mb-2">
-        <img class="card-img-top"
-          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-          <a class="btn btn-primary">Button</a>
+  </ol>
+  <!--/.Indicators-->
+  
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+  
+    <!--First slide-->
+    <div class="carousel-item active">
+      {% for song in songs1 %}
+      <div class="col-md-3" style="float:left">
+       <div class="card mb-2"style="height:400px">
+          <div class="card-body">
+            <h4 class="card-title">Hello</h4>
+            <p class="card-text" style="text-align:center">{{ song }}</p>
+          </div>
         </div>
-      </div>
+        </div>
+      {% endfor %}
     </div>
-
+    <!--/.First slide-->
+  
+    <!--Second slide-->
+    <div class="carousel-item">
+  
+      {% for song in songs2 %}
+      <div class="col-md-3" style="float:left">
+       <div class="card mb-2" style="height:400px">
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text" style="text-align:center">{{ song }}</p>
+          </div>
+        </div>
+        </div>
+      {% endfor %}
+    </div>
+    <!--/.Second slide-->
+  
+   
+  
   </div>
-  <!--/.First slide-->
-
-  <!--Second slide-->
-  <div class="carousel-item">
-
-    <div class="col-md-3" style="float:left">
-      <div class="card mb-2">
-        <img class="card-img-top"
-          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-          <a class="btn btn-primary">Button</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-3" style="float:left">
-      <div class="card mb-2">
-        <img class="card-img-top"
-          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-          <a class="btn btn-primary">Button</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-3" style="float:left">
-      <div class="card mb-2">
-        <img class="card-img-top"
-          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-          <a class="btn btn-primary">Button</a>
-        </div>
-      </div>
-    </div>
-    
-    <div class="col-md-3" style="float:left">
-      <div class="card mb-2">
-        <img class="card-img-top"
-          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-          <a class="btn btn-primary">Button</a>
-        </div>
-      </div>
-    </div>
-
+  <!--/.Slides-->
+  
   </div>
-  <!--/.Second slide-->
-
- 
-
+  <!--/.Carousel Wrapper-->
 </div>
-<!--/.Slides-->
-
-</div>
-<!--/.Carousel Wrapper-->
 </section>
 <!--------###################################################Music Cards end ################################################################### ----->
 

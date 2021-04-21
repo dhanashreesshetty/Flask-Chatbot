@@ -3,3 +3,4 @@ database.sqlite3-shm
 database.sqlite3-wal
 venv
 *.pyc
+/*_session/

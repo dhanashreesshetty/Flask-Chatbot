@@ -84,7 +84,7 @@ def classify(sentence, show_details=False):
     for i in return_results:
         if i[0] == 'joy':
             return_results.remove(i)
-        if i[1]>max and i[0]!="joy":
+        if i[1]>max:
             max=i[1]
             emotion=i[0]
 

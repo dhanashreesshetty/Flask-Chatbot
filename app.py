@@ -118,6 +118,8 @@ def get_bot_response():
             quote_ans=scrape(1,str(tag1))
             session['quotes1']=quote_ans[0:4]
             session['quotes2']=quote_ans[4:]
+            if str(tag1)=="joy":
+                book_tag="happy"
             iter=9
         elif(userText=="Yes"):
             response=phq9[phq]

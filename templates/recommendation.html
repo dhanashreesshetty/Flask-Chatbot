@@ -237,7 +237,7 @@
     <div class="col-md-3" style="float:left">
      <div class="card mb-2"style="height:400px">
         <div class="card-body">
-          <h4 class="card-title">Hello</h4>
+          <h4 class="card-title">Quotes for you</h4>
           <p class="card-text" style="text-align:center">{{ quote }}</p>
         </div>
       </div>
@@ -253,7 +253,7 @@
     <div class="col-md-3" style="float:left">
      <div class="card mb-2" style="height:400px">
         <div class="card-body">
-          <h4 class="card-title">Card title</h4>
+          <h4 class="card-title">Quotes for you</h4>
           <p class="card-text" style="text-align:center">{{ quote }}</p>
         </div>
       </div>
@@ -464,11 +464,11 @@
     <div class="carousel-item active">
       {% for song in songs1 %}
       <div class="col-md-3" style="float:left">
-       <div class="card mb-2"style="height:400px">
+       <div class="card mb-2"style="height:300px">
           <div class="card-body">
-            <h4 class="card-title" style="text-align:center">{{ song['name'] }}</h4>
-            <p class="card-text" style="text-align:center">{{ song['artist'] }}</p>
-            <p class="card-text" style="text-align:center">{{ song['album'] }}</p>
+            <h4 class="card-title" style="text-align:center">Song Name: {{ song['name'] }}</h4>
+            <p class="card-text" style="text-align:center">Artist: {{ song['artist'] }}</p>
+            <p class="card-text" style="text-align:center">Album: {{ song['album'] }}</p>
           </div>
         </div>
         </div>
@@ -481,11 +481,11 @@
   
       {% for song in songs2 %}
       <div class="col-md-3" style="float:left">
-       <div class="card mb-2" style="height:400px">
+       <div class="card mb-2" style="height:300px">
           <div class="card-body">
-            <h4 class="card-title" style="text-align:center">{{ song['name'] }}</h4>
-            <p class="card-text" style="text-align:center">{{ song['artist'] }}</p>
-            <p class="card-text" style="text-align:center">{{ song['album'] }}</p>
+            <h4 class="card-title" style="text-align:center">Song Name: {{ song['name'] }}</h4>
+            <p class="card-text" style="text-align:center">Artist: {{ song['artist'] }}</p>
+            <p class="card-text" style="text-align:center">Album: {{ song['album'] }}</p>
           </div>
         </div>
         </div>
@@ -536,12 +536,11 @@
 <div class="carousel-item active">
   {% for movie in movies1 %}
   <div class="col-md-3" style="float:left">
-   <div class="card mb-2"style="height:400px">
+   <div class="card mb-2"style="height:300px">
       <div class="card-body">
         <h4 class="card-title">{{ movie['title'] }}</h4>
         <p class="card-text">{{ movie['genre'] }}</p>
-        link = {{ movie['imdb_link'] }}
-        <img src=link />
+        <center><img src={{ movie['poster'] }} /></center>
       </div>
     </div>
     </div>
@@ -554,10 +553,11 @@
 
   {% for movie in movies2 %}
   <div class="col-md-3" style="float:left">
-   <div class="card mb-2"style="height:400px">
+   <div class="card mb-2"style="height:300px">
       <div class="card-body">
         <h4 class="card-title">{{ movie['title'] }}</h4>
         <p class="card-text" style="text-align:center">{{ movie['genre'] }}</p>
+      <center><img src={{ movie['poster'] }} /></center>
       </div>
     </div>
     </div>

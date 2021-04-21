@@ -53,7 +53,7 @@ def get_movies(url, file_name, nos):
 #get_movies(fantasy, 'movie_data/fantasy.json', 100)
 
 def fetch_songs():
-    f = open('C:\Flask-Chatbot\Recommendation\movie_data\comedy.json', 'r')
+    f = open('Recommendation\movie_data\comedy.json',  encoding="utf8")
     data = json.load(f)
     movies = []
     for i in range(8):

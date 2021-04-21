@@ -18,10 +18,13 @@ def songs(emotion):
         tag1='Happy'
         tag2='Energetic'
     for raw in reader:
+        dic1={}
         if raw['mood']==tag1:
-            song.append(raw['name']+"      "+raw['artist']+"    "+raw['album'])
+            dic1={"name":raw['name'],"artist":raw['artist'],"album":raw['album']}
+            song.append(dic1)
         if raw['mood']==tag2:
-            song.append(raw['name']+"    "+raw['artist']+"    "+raw['album'])
+            dic1={"name":raw['name'],"artist":raw['artist'],"album":raw['album']}
+            song.append(dic1)
 
     if len(song)>0:
         for i in range(8):
@@ -29,4 +32,3 @@ def songs(emotion):
 
     #print(song_display)
     return song_display
-

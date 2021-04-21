@@ -428,6 +428,8 @@
 </section>
 <!-------- ###################################################### Books Cards end ##############################################################-->
 
+<!-------- ###################################################### Movies Cards start ############################################################## -->
+<!--------######################################################## Movies Cards end ############################################################################### -->
 
 <!--------######################################################## Music Cards start ########################################################### -->
 <section id="music" class="music">
@@ -435,13 +437,13 @@
     
 
 <!--Carousel Wrapper-->
-<div id="multi-item-example" class="carousel slide carousel-multi-item" >
+<div id="multi-item-example1" class="carousel slide carousel-multi-item" >
 
   <!--Controls-->
   <center>
   <div class="controls-top">
-    <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
-    <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+    <a class="btn-floating" href="#multi-item-example1" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+    <a class="btn-floating" href="#multi-item-example1" data-slide="next"><i class="fa fa-chevron-right"></i></a>
     <h1></h1>
   </div>
   </center>
@@ -449,8 +451,8 @@
   
   <!--Indicators-->
   <ol class="carousel-indicators">
-    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-    <li data-target="#multi-item-example" data-slide-to="1"></li>
+    <li data-target="#multi-item-example1" data-slide-to="0" class="active"></li>
+    <li data-target="#multi-item-example1" data-slide-to="1"></li>
     
   </ol>
   <!--/.Indicators-->
@@ -464,8 +466,9 @@
       <div class="col-md-3" style="float:left">
        <div class="card mb-2"style="height:400px">
           <div class="card-body">
-            <h4 class="card-title">Hello</h4>
-            <p class="card-text" style="text-align:center">{{ song }}</p>
+            <h4 class="card-title" style="text-align:center">{{ song['name'] }}</h4>
+            <p class="card-text" style="text-align:center">{{ song['artist'] }}</p>
+            <p class="card-text" style="text-align:center">{{ song['album'] }}</p>
           </div>
         </div>
         </div>
@@ -480,8 +483,9 @@
       <div class="col-md-3" style="float:left">
        <div class="card mb-2" style="height:400px">
           <div class="card-body">
-            <h4 class="card-title">Card title</h4>
-            <p class="card-text" style="text-align:center">{{ song }}</p>
+            <h4 class="card-title" style="text-align:center">{{ song['name'] }}</h4>
+            <p class="card-text" style="text-align:center">{{ song['artist'] }}</p>
+            <p class="card-text" style="text-align:center">{{ song['album'] }}</p>
           </div>
         </div>
         </div>

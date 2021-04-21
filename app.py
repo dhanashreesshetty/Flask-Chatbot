@@ -12,6 +12,7 @@ from NN.neural import classify
 import sys
 from Recommendation.quotes import scrape
 from Recommendation.songs import songs
+from Recommendation.movies import fetch_songs
 
 app = Flask(__name__)
 app.static_folder = 'static'
@@ -128,10 +129,15 @@ def get_bot_response():
             if str(tag1)=="joy":
                 book_tag="happy"
             iter=9
+            #movies
+            movies = fetch_songs()
+            session['movies1']=movies[0:4]
+            session['movies2']=movies[4:]
         elif(userText=="Yes"):
             response=phq9[phq]
             phq=phq+1
             iter+=1
+
 
     elif iter==8:
         if phq<9:
@@ -154,7 +160,7 @@ def show_chatbot():
 
 @app.route("/show_recommendation")
 def show_recommendation():
-    return render_template("recommendation.html",quotes1=get_quotes1(),quotes2=get_quotes2(),songs1=session['songs1'],songs2=session['songs2'])
+    return render_template("recommendation.html",quotes1=get_quotes1(),quotes2=get_quotes2(),songs1=session['songs1'],songs2=session['songs2'],movies1=session['movies1'],movies2=session['movies2'])
 
 def get_quotes1():
     quotes1=session['quotes1']

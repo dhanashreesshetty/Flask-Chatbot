@@ -3,6 +3,45 @@ import csv
 from bs4 import BeautifulSoup as bs
 import urllib
 import os
+import random
+
+def book_select(emotion):
+    book=[]
+    book_display=[]
+    reader = csv.DictReader(open('Recommendation/books_list.csv', encoding="utf8"))
+    if emotion=='sadness':
+        tag1='happy'
+        tag2='fantasy'
+    if emotion=='fear':
+        tag1='motivational'
+        tag2='happy'
+    if emotion=='anger':
+        tag1='anger'
+        tag2='happy'
+    if emotion=='joy':
+        tag1='happy'
+        tag2='motivational'
+    for raw in reader:
+        dic1={}
+        if raw['Tag']==tag1:
+            dic1={"Title":raw['Title'],"Author":raw['Author']}
+            if dic1 not in book:
+                book.append(dic1)
+        if raw['Tag']==tag2:
+            dic1={"Title":raw['Title'],"Author":raw['Author']}
+            if dic1 not in book:
+                book.append(dic1)
+    i=0
+    if len(book)>0:
+        while i!=8:
+            a=random.choice(book)
+            if a not in book_display:
+                book_display.append(book[i])
+                i+=1           
+
+    #print(book_display)
+    return book_display
+
 
 def scrape_and_run(genre):
     # scrape on goodreads.com using desire genre type or key word
@@ -54,9 +93,10 @@ if __name__ == '__main__':
 
     ## run ifinite till user tells you to stop
     ## to avoid having to compile again and again
-    while True:
+    """while True:
         genre = input("Enter the genre (or quit to stop): ").lower() # input case lowered
         if(genre == "quit"):
             break
         else:
-            scrape_and_run(genre)
+            scrape_and_run(genre)"""
+    #book_select("sadness")

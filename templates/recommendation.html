@@ -237,7 +237,7 @@
     <div class="col-md-3" style="float:left">
      <div class="card mb-2"style="height:400px">
         <div class="card-body">
-          <h4 class="card-title">Quotes for you</h4>
+          <h4 class="card-title" style="text-align:center">Quotes for you</h4>
           <p class="card-text" style="text-align:center">{{ quote }}</p>
         </div>
       </div>
@@ -274,162 +274,75 @@
 <!--------############################## Quotes Cards end ############################################################################### -->
 
 
-<!-------- ######################################### books Cards start ##################################################################### -->
+<!-------- ######################################### Books Cards start ##################################################################### -->
 <section id="books" class="books">
     <div class="container my-4">
     
 <!--Carousel Wrapper-->
-<div id="multi-item-example" class="carousel slide carousel-multi-item" >
+<div id="multi-item-example4" class="carousel slide carousel-multi-item" >
 
-<!--Controls-->
-    <center>   
-<div  class="controls-top">
-    <a class="btn-floating" href="#multi-item-example"  data-slide="prev"><i class="fa fa-chevron-left"></i></a>
-  <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+  <!--Controls-->
+  <center>
+  <div class="controls-top">
+  <a class="btn-floating" href="#multi-item-example4" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+  <a class="btn-floating" href="#multi-item-example4" data-slide="next"><i class="fa fa-chevron-right"></i></a>
   <h1></h1>
-</div>
-</center>
-<!-- Controls-->
-
-<!--Indicators-->
-<ol class="carousel-indicators">
-  <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-  <li data-target="#multi-item-example" data-slide-to="1"></li>
+  </div>
+  </center>
+  <!-- Controls-->
   
-</ol>
-<!--/.Indicators-->
-
-<!--Slides-->
-<div class="carousel-inner" role="listbox">
-
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+  <li data-target="#multi-item-example4" data-slide-to="0" class="active"></li>
+  <li data-target="#multi-item-example4" data-slide-to="1"></li>
+  
+  </ol>
+  <!--/.Indicators-->
+  
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+  
   <!--First slide-->
   <div class="carousel-item active">
-
+    {% for book in books1 %}
     <div class="col-md-3" style="float:left">
-     <div class="card mb-2">
-        <img class="card-img-top"
-          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+     <div class="card mb-2"style="height:300px">
         <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-          <a class="btn btn-primary">Button</a>
+          <h4 class="card-title">{{ book['Title'] }}</h4>
+          <p class="card-text">{{ book['Author'] }}</p>
         </div>
       </div>
-    </div>
-
-    <div class="col-md-3" style="float:left">
-      <div class="card mb-2">
-        <img class="card-img-top"
-          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-          <a class="btn btn-primary">Button</a>
-        </div>
       </div>
-    </div>
-
-    <div class="col-md-3" style="float:left">
-      <div class="card mb-2">
-        <img class="card-img-top"
-          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-          <a class="btn btn-primary">Button</a>
-        </div>
-      </div>
-    </div>
-    
-     <div class="col-md-3" style="float:left">
-     <div class="card mb-2">
-        <img class="card-img-top"
-          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-          <a class="btn btn-primary">Button</a>
-        </div>
-      </div>
-    </div>
-
+    {% endfor %}
   </div>
   <!--/.First slide-->
-
+  
   <!--Second slide-->
   <div class="carousel-item">
-
+  
+    {% for book in books2 %}
     <div class="col-md-3" style="float:left">
-      <div class="card mb-2">
-        <img class="card-img-top"
-          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+     <div class="card mb-2"style="height:300px">
         <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-          <a class="btn btn-primary">Button</a>
+          <h4 class="card-title">{{ book['Title'] }}</h4>
+          <p class="card-text" style="text-align:center">{{ book['Author'] }}</p>
         </div>
       </div>
-    </div>
-
-    <div class="col-md-3" style="float:left">
-      <div class="card mb-2">
-        <img class="card-img-top"
-          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-          <a class="btn btn-primary">Button</a>
-        </div>
       </div>
-    </div>
-
-    <div class="col-md-3" style="float:left">
-      <div class="card mb-2">
-        <img class="card-img-top"
-          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-          <a class="btn btn-primary">Button</a>
-        </div>
-      </div>
-    </div>
-    
-    <div class="col-md-3" style="float:left">
-      <div class="card mb-2">
-        <img class="card-img-top"
-          src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card title</h4>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-          <a class="btn btn-primary">Button</a>
-        </div>
-      </div>
-    </div>
-
+    {% endfor %}
   </div>
   <!--/.Second slide-->
-
- 
-
-</div>
-<!--/.Slides-->
-
-</div>
-<!--/.Carousel Wrapper-->
+  
+  
+  
+  </div>
+  <!--/.Slides-->
+  
+  </div>
+  <!--/.Carousel Wrapper-->
 </section>
 <!-------- ###################################################### Books Cards end ##############################################################-->
 
-<!-------- ###################################################### Movies Cards start ############################################################## -->
-<!--------######################################################## Movies Cards end ############################################################################### -->
 
 <!--------######################################################## Music Cards start ########################################################### -->
 <section id="music" class="music">
@@ -504,7 +417,7 @@
 </section>
 <!--------###################################################Music Cards end ################################################################### ----->
 
-<!-------- ################################################## Movies  Cards starts ############################################################## -->
+<!-------- ################################################## Movies  Cards start ############################################################## -->
 <section id="movies" class="movies">
   <div class="container my-4">
   

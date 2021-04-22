@@ -13,6 +13,7 @@ import sys
 from Recommendation.quotes import scrape
 from Recommendation.songs import songs
 from Recommendation.movies import fetch_songs
+from Recommendation.books import book_select
 
 app = Flask(__name__)
 app.static_folder = 'static'
@@ -126,8 +127,10 @@ def get_bot_response():
             session['songs1']=song_ans[0:4]
             session['songs2']=song_ans[4:]
             print(song_ans)
-            if str(tag1)=="joy":
-                book_tag="happy"
+            #books
+            book_display=book_select(str(tag1))
+            session['books1']=book_display[0:4]
+            session['books2']=book_display[4:]
             iter=9
             #movies
             movies = fetch_songs()
@@ -153,14 +156,14 @@ def get_bot_response():
         elif(userText=="Yes"):
             quote_ans=scrape(1,tag1)
     return response
-   
+    
 @app.route("/show_chatbot")
 def show_chatbot():
     return render_template("index.html")
 
 @app.route("/show_recommendation")
 def show_recommendation():
-    return render_template("recommendation.html",quotes1=get_quotes1(),quotes2=get_quotes2(),songs1=session['songs1'],songs2=session['songs2'],movies1=session['movies1'],movies2=session['movies2'])
+    return render_template("recommendation.html",quotes1=get_quotes1(),quotes2=get_quotes2(),songs1=session['songs1'],songs2=session['songs2'],movies1=session['movies1'],movies2=session['movies2'],books1=session['books1'],books2=session['books2'])
 
 def get_quotes1():
     quotes1=session['quotes1']

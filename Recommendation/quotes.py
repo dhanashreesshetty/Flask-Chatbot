@@ -19,7 +19,8 @@ def scrape(page_number,tag):
     quote = i.text.strip().split('\n')[0]
     author = i.find('span',attrs={'class':'authorOrTitle'}).text.strip()
     q="--------".join([quote, author])
-    quotes.append(q)
+    if len(q)<300:
+      quotes.append(q)
     authors.append(author)
   quotes_display=[]
   if len(quotes)>0:

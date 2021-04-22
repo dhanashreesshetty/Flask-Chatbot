@@ -1,0 +1,352 @@
+[
+    {
+        "id": "1.",
+        "imdb_link": "https://www.imdb.com/title/tt9208876/?ref_=adv_li_tt",
+        "title": "The Falcon and the Winter Soldier",
+        "genre": "Action, Adventure, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BODNiODVmYjItM2MyMC00ZWQyLTgyMGYtNzJjMmVmZTY2OTJjXkEyXkFqcGdeQXVyNzk3NDUzNTc@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "2.",
+        "imdb_link": "https://www.imdb.com/title/tt10121392/?ref_=adv_li_tt",
+        "title": "Thunder Force",
+        "genre": "Action, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMWZkM2I2NjEtNWM0Mi00MTgwLWJlYTAtYmNkZWYzNmQ1ZTBiXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "3.",
+        "imdb_link": "https://www.imdb.com/title/tt0293429/?ref_=adv_li_tt",
+        "title": "Mortal Kombat",
+        "genre": "Action, Adventure, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BY2ZlNWIxODMtN2YwZi00ZjNmLWIyN2UtZTFkYmZkNDQyNTAyXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "4.",
+        "imdb_link": "https://www.imdb.com/title/tt8697870/?ref_=adv_li_tt",
+        "title": "The Nevers",
+        "genre": "Action, Drama, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BODEyOWY2ZDctOGI3Zi00YjYwLWIwZDEtMzJlY2VhYTA2N2ViXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "5.",
+        "imdb_link": "https://www.imdb.com/title/tt5774002/?ref_=adv_li_tt",
+        "title": "Jupiter's Legacy",
+        "genre": "Action, Adventure, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDU4MWViOGItZGJjYi00YjczLTk1YmMtY2ZmNmY4YTllNDA0XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UY98_CR5,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "6.",
+        "imdb_link": "https://www.imdb.com/title/tt5034838/?ref_=adv_li_tt",
+        "title": "Godzilla vs. Kong",
+        "genre": "Action, Sci-Fi, Thriller",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZmYzMzU4NjctNDI0Mi00MGExLWI3ZDQtYzQzYThmYzc2ZmNjXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "7.",
+        "imdb_link": "https://www.imdb.com/title/tt7888964/?ref_=adv_li_tt",
+        "title": "Nobody",
+        "genre": "Action, Crime, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjM5YTRlZmUtZGVmYi00ZjE2LWIyNzAtOWVhMDk1MDdkYzhjXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "8.",
+        "imdb_link": "https://www.imdb.com/title/tt0993840/?ref_=adv_li_tt",
+        "title": "Army of the Dead",
+        "genre": "Action, Crime, Horror",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNGY0NzgzYzctYWQwMC00MzM2LThjNGMtZjFjMWUyNzg0ZmM0XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "9.",
+        "imdb_link": "https://www.imdb.com/title/tt0944947/?ref_=adv_li_tt",
+        "title": "Game of Thrones",
+        "genre": "Action, Adventure, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_UY98_CR2,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "10.",
+        "imdb_link": "https://www.imdb.com/title/tt5433138/?ref_=adv_li_tt",
+        "title": "F9",
+        "genre": "Action, Adventure, Crime",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjI0NmFkYzEtNzU2YS00NTg5LWIwYmMtNmQ1MTU0OGJjOTMxXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "11.",
+        "imdb_link": "https://www.imdb.com/title/tt12361974/?ref_=adv_li_tt",
+        "title": "Zack Snyder's Justice League",
+        "genre": "Action, Adventure, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjI3NDg0ZTEtMDEwYS00YWMyLThjYjktMTNlM2NmYjc1OGRiXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "12.",
+        "imdb_link": "https://www.imdb.com/title/tt6741278/?ref_=adv_li_tt",
+        "title": "Invincible",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMmE1ODVhMGYtODYyYS00Mjc4LWIzN2EtYWZkZDg1MTUyNDkxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "13.",
+        "imdb_link": "https://www.imdb.com/title/tt2222042/?ref_=adv_li_tt",
+        "title": "Love and Monsters",
+        "genre": "Action, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYWVkMWEyMDUtZTVmOC00MTYxLWE1ZTUtNjk4M2IzMjY2OTIxXkEyXkFqcGdeQXVyMDk5Mzc5MQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "14.",
+        "imdb_link": "https://www.imdb.com/title/tt2560140/?ref_=adv_li_tt",
+        "title": "Shingeki no kyojin",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTY5ODk1NzUyMl5BMl5BanBnXkFtZTgwMjUyNzEyMTE@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "15.",
+        "imdb_link": "https://www.imdb.com/title/tt4682266/?ref_=adv_li_tt",
+        "title": "The New Mutants",
+        "genre": "Action, Horror, Mystery",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZDQ2NTdmNDgtMGIwMS00ODE2LTk5M2EtZGZhYzc4MWRlNTU3XkEyXkFqcGdeQXVyNTc4MjczMTM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "16.",
+        "imdb_link": "https://www.imdb.com/title/tt6902332/?ref_=adv_li_tt",
+        "title": "The Marksman",
+        "genre": "Action, Thriller",
+        "poster": "https://m.media-amazon.com/images/M/MV5BODdlNThhMTUtNmU1OS00ZjM3LWE1ZjMtOWViN2RhYWRiZTg5XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "17.",
+        "imdb_link": "https://www.imdb.com/title/tt9140560/?ref_=adv_li_tt",
+        "title": "WandaVision",
+        "genre": "Action, Comedy, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjJiZmE5ZDgtYWUxZi00MWI1LTg2MmEtZmUwZGE2YzRkNTE5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "18.",
+        "imdb_link": "https://www.imdb.com/title/tt2306299/?ref_=adv_li_tt",
+        "title": "Vikings",
+        "genre": "Action, Adventure, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BODk4ZjU0NDUtYjdlOS00OTljLTgwZTUtYjkyZjk1NzExZGIzXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "19.",
+        "imdb_link": "https://www.imdb.com/title/tt3107288/?ref_=adv_li_tt",
+        "title": "The Flash",
+        "genre": "Action, Adventure, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDIzNzYwNTctZWY4Mi00YjQ2LWI5YWYtMzdmNDgwMGI4Yzk1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY98_CR5,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "20.",
+        "imdb_link": "https://www.imdb.com/title/tt3215824/?ref_=adv_li_tt",
+        "title": "Those Who Wish Me Dead",
+        "genre": "Action, Drama, Thriller",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTEyNDEzNjAtNjIyNy00ZGYxLWJjNDYtNTJhM2JhYjIxYTBmXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "21.",
+        "imdb_link": "https://www.imdb.com/title/tt6334354/?ref_=adv_li_tt",
+        "title": "The Suicide Squad",
+        "genre": "Action, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNGM3YzdlOWYtNjViZS00MTE2LWE1MWUtZmE2ZTcxZjcyMmU3XkEyXkFqcGdeQXVyODEyMTI1MjA@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "22.",
+        "imdb_link": "https://www.imdb.com/title/tt1190634/?ref_=adv_li_tt",
+        "title": "The Boys",
+        "genre": "Action, Comedy, Crime",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNGEyOGJiNWEtMTgwMi00ODU4LTlkMjItZWI4NjFmMzgxZGY2XkEyXkFqcGdeQXVyNjcyNjcyMzQ@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "23.",
+        "imdb_link": "https://www.imdb.com/title/tt2076822/?ref_=adv_li_tt",
+        "title": "Chaos Walking",
+        "genre": "Action, Adventure, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTcxYTk3MWQtZThlMS00ZjQ0LTg0NjktNGVkNWM2MTAyYWJmXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "24.",
+        "imdb_link": "https://www.imdb.com/title/tt6468322/?ref_=adv_li_tt",
+        "title": "La casa de papel",
+        "genre": "Action, Crime, Mystery",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZDcxOGI0MDYtNTc5NS00NDUzLWFkOTItNDIxZjI0OTllNTljXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "25.",
+        "imdb_link": "https://www.imdb.com/title/tt8385148/?ref_=adv_li_tt",
+        "title": "Hitman's Wife's Bodyguard",
+        "genre": "Action, Comedy, Crime",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDkzYmNiOWYtNzZkNi00NzNiLTk2MzktY2VmMGY4MmI1NDMwXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_UY98_CR5,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "26.",
+        "imdb_link": "https://www.imdb.com/title/tt8111088/?ref_=adv_li_tt",
+        "title": "The Mandalorian",
+        "genre": "Action, Adventure, Sci-Fi",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZDhlMzY0ZGItZTcyNS00ZTAxLWIyMmYtZGQ2ODg5OWZiYmJkXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "27.",
+        "imdb_link": "https://www.imdb.com/title/tt0364845/?ref_=adv_li_tt",
+        "title": "NCIS: Naval Criminal Investigative Service",
+        "genre": "Action, Crime, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjVlMjZhYzYtOGQxNC00OTQxLTk2NzEtMWFmMmNhODA4YjYzXkEyXkFqcGdeQXVyNjQ3MDgwNjY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "28.",
+        "imdb_link": "https://www.imdb.com/title/tt10540276/?ref_=adv_li_tt",
+        "title": "Snabba Cash",
+        "genre": "Action, Crime, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZTI5MTk0ZGQtN2FhOC00OWVmLWFkZjMtMGE5NTkyN2Q2MWZlXkEyXkFqcGdeQXVyNjEwNTM2Mzc@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "29.",
+        "imdb_link": "https://www.imdb.com/title/tt5109280/?ref_=adv_li_tt",
+        "title": "Raya and the Last Dragon",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZWNiOTc4NGItNGY4YS00ZGNkLThkOWEtMDE2ODcxODEwNjkwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "30.",
+        "imdb_link": "https://www.imdb.com/title/tt2403776/?ref_=adv_li_tt",
+        "title": "Shadow and Bone",
+        "genre": "Action, Drama, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTNhY2JlMmItMGMzZi00ZTM2LTlmNTItZDBkMGVhNGJhYWRhXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UY98_CR5,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "31.",
+        "imdb_link": "https://www.imdb.com/title/tt3480822/?ref_=adv_li_tt",
+        "title": "Black Widow",
+        "genre": "Action, Adventure, Sci-Fi",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjdmODAzNTctNWU1NS00ZmRiLWFiM2YtMjAyNzgzZWJlZjhlXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "32.",
+        "imdb_link": "https://www.imdb.com/title/tt7126948/?ref_=adv_li_tt",
+        "title": "Wonder Woman 1984",
+        "genre": "Action, Adventure, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTlhNzJjYzYtNGU3My00ZDI5LTgzZDUtYzllYjU1ZmU0YTgwXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "33.",
+        "imdb_link": "https://www.imdb.com/title/tt6723592/?ref_=adv_li_tt",
+        "title": "Tenet",
+        "genre": "Action, Sci-Fi, Thriller",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYzg0NGM2NjAtNmIxOC00MDJmLTg5ZmYtYzM0MTE4NWE2NzlhXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "34.",
+        "imdb_link": "https://www.imdb.com/title/tt4154796/?ref_=adv_li_tt",
+        "title": "Avengers: Endgame",
+        "genre": "Action, Adventure, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "35.",
+        "imdb_link": "https://www.imdb.com/title/tt6156584/?ref_=adv_li_tt",
+        "title": "Snowpiercer",
+        "genre": "Action, Drama, Sci-Fi",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTY1MDhjOWQtYWFkNS00ODA1LTg1YTUtZDhmZDE0MDJlMzIwXkEyXkFqcGdeQXVyMTI4MDc0NjU2._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "36.",
+        "imdb_link": "https://www.imdb.com/title/tt5180504/?ref_=adv_li_tt",
+        "title": "The Witcher",
+        "genre": "Action, Adventure, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOGE4MmVjMDgtMzIzYy00NjEwLWJlODMtMDI1MGY2ZDlhMzE2XkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "37.",
+        "imdb_link": "https://www.imdb.com/title/tt3741700/?ref_=adv_li_tt",
+        "title": "Godzilla: King of the Monsters",
+        "genre": "Action, Adventure, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOGFjYWNkMTMtMTg1ZC00Y2I4LTg0ZTYtN2ZlMzI4MGQwNzg4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "38.",
+        "imdb_link": "https://www.imdb.com/title/tt11581174/?ref_=adv_li_tt",
+        "title": "Karnan",
+        "genre": "Action, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTAxMTA5ZGYtOWNjYi00MmIxLWE4ZTItNjQxMzQ0MzMxMDIyXkEyXkFqcGdeQXVyMTI4Nzc4Njg3._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "39.",
+        "imdb_link": "https://www.imdb.com/title/tt2364582/?ref_=adv_li_tt",
+        "title": "Agents of S.H.I.E.L.D.",
+        "genre": "Action, Adventure, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTkwODYyMjgzOV5BMl5BanBnXkFtZTgwODAzMTE5MjE@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "40.",
+        "imdb_link": "https://www.imdb.com/title/tt4016454/?ref_=adv_li_tt",
+        "title": "Supergirl",
+        "genre": "Action, Adventure, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNmYwNmYxYjgtZGEwYi00MzkxLTkwYWQtMTQ3Njk5NWRjN2ExXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY98_CR5,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "41.",
+        "imdb_link": "https://www.imdb.com/title/tt4179452/?ref_=adv_li_tt",
+        "title": "The Last Kingdom",
+        "genre": "Action, Drama, History",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjE1MzYzNjk3OF5BMl5BanBnXkFtZTgwMzk0MzYwNzE@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "42.",
+        "imdb_link": "https://www.imdb.com/title/tt7221388/?ref_=adv_li_tt",
+        "title": "Cobra Kai",
+        "genre": "Action, Comedy, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOTE1M2Q3YjQtZGMzYy00MDcwLWIzNzctYzI3MDBhMjBmYTQwXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "43.",
+        "imdb_link": "https://www.imdb.com/title/tt7475590/?ref_=adv_li_tt",
+        "title": "Kung Fu",
+        "genre": "Action, Adventure, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjNjNmEwZjQtNTQ4Zi00MGM5LTgwNmUtMjhhMTc0MjczNzllXkEyXkFqcGdeQXVyNjEwNTM2Mzc@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "44.",
+        "imdb_link": "https://www.imdb.com/title/tt9140554/?ref_=adv_li_tt",
+        "title": "Loki",
+        "genre": "Action, Adventure, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOGU0OWQyMjItYzA4Zi00MDFiLThiZWQtZmEyNWRiODAzYzNmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "45.",
+        "imdb_link": "https://www.imdb.com/title/tt2261391/?ref_=adv_li_tt",
+        "title": "Chicago Fire",
+        "genre": "Action, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BM2Q1MDhjYzQtZmNmYS00ZmUyLWFmYjgtZTkyMzU0ZjcyMDNmXkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "46.",
+        "imdb_link": "https://www.imdb.com/title/tt11655202/?ref_=adv_li_tt",
+        "title": "Retf\u00e6rdighedens ryttere",
+        "genre": "Action, Comedy, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZWVkNTFmNTQtMGRiZC00NjAwLThjYTgtYmI3ZjA2Zjc1MTM1XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "47.",
+        "imdb_link": "https://www.imdb.com/title/tt0185906/?ref_=adv_li_tt",
+        "title": "Band of Brothers",
+        "genre": "Action, Drama, History",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTI3ODc2ODc0M15BMl5BanBnXkFtZTYwMjgzNjc3._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "48.",
+        "imdb_link": "https://www.imdb.com/title/tt0974015/?ref_=adv_li_tt",
+        "title": "Justice League",
+        "genre": "Action, Adventure, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYWVhZjZkYTItOGIwYS00NmRkLWJlYjctMWM0ZjFmMDU4ZjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "49.",
+        "imdb_link": "https://www.imdb.com/title/tt1064899/?ref_=adv_li_tt",
+        "title": "Queen of the South",
+        "genre": "Action, Crime, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZjE2Y2Y2OWUtYWRkMC00MWYxLWE2OTItM2VmYjY4ZGI1MzIxXkEyXkFqcGdeQXVyMTAzNzQ5NDA0._V1_UY98_CR48,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "50.",
+        "imdb_link": "https://www.imdb.com/title/tt1877830/?ref_=adv_li_tt",
+        "title": "The Batman",
+        "genre": "Action, Crime, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZTE2YTY3YTMtM2FlMS00YmI3LTgyMWUtM2FhMWIyZWRmMDk5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY98_CR5,0,67,98_AL_.jpg"
+    }
+]

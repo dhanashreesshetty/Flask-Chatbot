@@ -1,0 +1,352 @@
+[
+    {
+        "id": "1.",
+        "imdb_link": "https://www.imdb.com/title/tt9208876/?ref_=adv_li_tt",
+        "title": "The Falcon and the Winter Soldier",
+        "genre": "Action, Adventure, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BODNiODVmYjItM2MyMC00ZWQyLTgyMGYtNzJjMmVmZTY2OTJjXkEyXkFqcGdeQXVyNzk3NDUzNTc@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "2.",
+        "imdb_link": "https://www.imdb.com/title/tt9064858/?ref_=adv_li_tt",
+        "title": "Them",
+        "genre": "Drama, Horror, Thriller",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNGZiZTY2ZDEtMDY5MC00MGE1LWI1ZGYtOGE2N2VmNTNlNjUwXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UY98_CR5,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "3.",
+        "imdb_link": "https://www.imdb.com/title/tt8697870/?ref_=adv_li_tt",
+        "title": "The Nevers",
+        "genre": "Action, Drama, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BODEyOWY2ZDctOGI3Zi00YjYwLWIwZDEtMzJlY2VhYTA2N2ViXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "4.",
+        "imdb_link": "https://www.imdb.com/title/tt5774002/?ref_=adv_li_tt",
+        "title": "Jupiter's Legacy",
+        "genre": "Action, Adventure, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDU4MWViOGItZGJjYi00YjczLTk1YmMtY2ZmNmY4YTllNDA0XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UY98_CR5,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "5.",
+        "imdb_link": "https://www.imdb.com/title/tt7888964/?ref_=adv_li_tt",
+        "title": "Nobody",
+        "genre": "Action, Crime, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjM5YTRlZmUtZGVmYi00ZjE2LWIyNzAtOWVhMDk1MDdkYzhjXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "6.",
+        "imdb_link": "https://www.imdb.com/title/tt7985576/?ref_=adv_li_tt",
+        "title": "The Serpent",
+        "genre": "Crime, Drama, Thriller",
+        "poster": "https://m.media-amazon.com/images/M/MV5BY2U4ZTE1YTgtNmEzZi00N2E4LTk0MWItOTY3Y2RlNzliZTZjXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_UY98_CR7,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "7.",
+        "imdb_link": "https://www.imdb.com/title/tt2303687/?ref_=adv_li_tt",
+        "title": "Line of Duty",
+        "genre": "Crime, Drama, Mystery",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTExZDZjNTMtNDVmNy00ZTk2LWFiMzUtZDlkZGRlOGU0ZWRmXkEyXkFqcGdeQXVyMjExMjk0ODk@._V1_UY98_CR1,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "8.",
+        "imdb_link": "https://www.imdb.com/title/tt1520211/?ref_=adv_li_tt",
+        "title": "The Walking Dead",
+        "genre": "Drama, Horror, Thriller",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTc5ZmM0OTQtNDY4MS00ZjMyLTgwYzgtOGY0Y2VlMWFmNDU0XkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "9.",
+        "imdb_link": "https://www.imdb.com/title/tt0944947/?ref_=adv_li_tt",
+        "title": "Game of Thrones",
+        "genre": "Action, Adventure, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_UY98_CR2,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "10.",
+        "imdb_link": "https://www.imdb.com/title/tt6741278/?ref_=adv_li_tt",
+        "title": "Invincible",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMmE1ODVhMGYtODYyYS00Mjc4LWIzN2EtYWZkZDg1MTUyNDkxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "11.",
+        "imdb_link": "https://www.imdb.com/title/tt9620292/?ref_=adv_li_tt",
+        "title": "Promising Young Woman",
+        "genre": "Crime, Drama, Thriller",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOTI0OGQzOWEtZWY1ZC00MTFjLThmODAtYWQ3MDk4ZGEyNGYyXkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "12.",
+        "imdb_link": "https://www.imdb.com/title/tt0413573/?ref_=adv_li_tt",
+        "title": "Grey's Anatomy",
+        "genre": "Drama, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjgwNGNkZGYtMWQyYS00YjEzLWFmZTctODUzYWMxOWJkNTAzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "13.",
+        "imdb_link": "https://www.imdb.com/title/tt1586680/?ref_=adv_li_tt",
+        "title": "Shameless",
+        "genre": "Comedy, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZGFiOGY1MjAtNWM2Yy00YzBlLTkwODktMTZiOWMyZmNmZmZhXkEyXkFqcGdeQXVyOTA3MTMyOTk@._V1_UY98_CR3,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "14.",
+        "imdb_link": "https://www.imdb.com/title/tt2442560/?ref_=adv_li_tt",
+        "title": "Peaky Blinders",
+        "genre": "Crime, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTkzNjEzMDEzMF5BMl5BanBnXkFtZTgwMDI0MjE4MjE@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "15.",
+        "imdb_link": "https://www.imdb.com/title/tt4786824/?ref_=adv_li_tt",
+        "title": "The Crown",
+        "genre": "Biography, Drama, History",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZmY0MzBlNjctNTRmNy00Njk3LWFjMzctMWQwZDAwMGJmY2MyXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "16.",
+        "imdb_link": "https://www.imdb.com/title/tt11794642/?ref_=adv_li_tt",
+        "title": "Big Sky",
+        "genre": "Crime, Drama, Mystery",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZWY1N2E3OTItODU2Zi00YjcxLTk5MTctNzI1OWJmMDA0Mzk0XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UY98_CR5,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "17.",
+        "imdb_link": "https://www.imdb.com/title/tt10272386/?ref_=adv_li_tt",
+        "title": "The Father",
+        "genre": "Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZGJhNWRiOWQtMjI4OS00ZjcxLTgwMTAtMzQ2ODkxY2JkOTVlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "18.",
+        "imdb_link": "https://www.imdb.com/title/tt9770150/?ref_=adv_li_tt",
+        "title": "Nomadland",
+        "genre": "Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDRiZWUxNmItNDU5Yy00ODNmLTk0M2ItZjQzZTA5OTJkZjkyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "19.",
+        "imdb_link": "https://www.imdb.com/title/tt2741602/?ref_=adv_li_tt",
+        "title": "The Blacklist",
+        "genre": "Crime, Drama, Mystery",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZDA1MzE3M2EtNTE4Ni00OGE4LWE1NjctYzFhMzA2NDgxMDIxXkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "20.",
+        "imdb_link": "https://www.imdb.com/title/tt11237708/?ref_=adv_li_tt",
+        "title": "Rebel",
+        "genre": "Crime, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYWI0NDM1MDMtYWY3OC00ZDc4LTliYzItMWY3YTYzZTA3NDhkXkEyXkFqcGdeQXVyNjEwNTM2Mzc@._V1_UY98_CR5,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "21.",
+        "imdb_link": "https://www.imdb.com/title/tt2560140/?ref_=adv_li_tt",
+        "title": "Shingeki no kyojin",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTY5ODk1NzUyMl5BMl5BanBnXkFtZTgwMjUyNzEyMTE@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "22.",
+        "imdb_link": "https://www.imdb.com/title/tt0452046/?ref_=adv_li_tt",
+        "title": "Criminal Minds",
+        "genre": "Crime, Drama, Mystery",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNGE2ZmFkZTYtNjRiOS00ZjE3LThjOWMtZTViZjRmNDFjNTQwXkEyXkFqcGdeQXVyNjg4NzAyOTA@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "23.",
+        "imdb_link": "https://www.imdb.com/title/tt10939214/?ref_=adv_li_tt",
+        "title": "Too Close",
+        "genre": "Crime, Drama, Thriller",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMzA5ZTUyOGYtYTVjZi00MmNjLWFiODUtNDBmYzE4YmFmYjdkXkEyXkFqcGdeQXVyMjQwNTQxMDg@._V1_UY98_CR1,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "24.",
+        "imdb_link": "https://www.imdb.com/title/tt0903747/?ref_=adv_li_tt",
+        "title": "Breaking Bad",
+        "genre": "Crime, Drama, Thriller",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjhiMzgxZTctNDc1Ni00OTIxLTlhMTYtZTA3ZWFkODRkNmE2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY98_CR1,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "25.",
+        "imdb_link": "https://www.imdb.com/title/tt0203259/?ref_=adv_li_tt",
+        "title": "Law & Order: Special Victims Unit",
+        "genre": "Crime, Drama, Mystery",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNWNlNjcwNGItOWRkNi00MzI0LTg3OGMtYzdjZDA4YmU4M2U1XkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "26.",
+        "imdb_link": "https://www.imdb.com/title/tt9140560/?ref_=adv_li_tt",
+        "title": "WandaVision",
+        "genre": "Action, Comedy, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjJiZmE5ZDgtYWUxZi00MWI1LTg2MmEtZmUwZGE2YzRkNTE5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "27.",
+        "imdb_link": "https://www.imdb.com/title/tt2306299/?ref_=adv_li_tt",
+        "title": "Vikings",
+        "genre": "Action, Adventure, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BODk4ZjU0NDUtYjdlOS00OTljLTgwZTUtYjkyZjk1NzExZGIzXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "28.",
+        "imdb_link": "https://www.imdb.com/title/tt7808566/?ref_=adv_li_tt",
+        "title": "Made for Love",
+        "genre": "Comedy, Drama, Sci-Fi",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYzY0ODQyOTEtODYzNi00MThhLWJiNDUtZmVhMzg0OTg2NWFmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "29.",
+        "imdb_link": "https://www.imdb.com/title/tt5363618/?ref_=adv_li_tt",
+        "title": "Sound of Metal",
+        "genre": "Drama, Music",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjcyYjg0M2ItMzMyZS00NmM1LTlhZDMtN2MxN2RhNWY4YTkwXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "30.",
+        "imdb_link": "https://www.imdb.com/title/tt11937816/?ref_=adv_li_tt",
+        "title": "\u00bfQui\u00e9n Mat\u00f3 a Sara?",
+        "genre": "Crime, Drama, Mystery",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYWZlOTM3ZjAtZDlkOC00ZjRlLWI0YTEtYTk0NzFjMWEzMDczXkEyXkFqcGdeQXVyNjEwNTM2Mzc@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "31.",
+        "imdb_link": "https://www.imdb.com/title/tt10893694/?ref_=adv_li_tt",
+        "title": "The Irregulars",
+        "genre": "Crime, Drama, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZDRmNjVmODUtZjc0Zi00YTVkLWJhZjYtNjRjYmJiMjU4ODJkXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "32.",
+        "imdb_link": "https://www.imdb.com/title/tt3006802/?ref_=adv_li_tt",
+        "title": "Outlander",
+        "genre": "Drama, Fantasy, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzE3ZTYxZWYtMjQ1Ny00MzFhLWI1MGMtMDZmMzYwYjc1OWQ0XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "33.",
+        "imdb_link": "https://www.imdb.com/title/tt5555260/?ref_=adv_li_tt",
+        "title": "This Is Us",
+        "genre": "Comedy, Drama, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjNlOWY2OWEtMGQyOC00YWQ4LWJkMjUtYzU4NGEzNjM2MWY0XkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "34.",
+        "imdb_link": "https://www.imdb.com/title/tt7817340/?ref_=adv_li_tt",
+        "title": "New Amsterdam",
+        "genre": "Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOWI3ZmVkNDktYTgzMy00ZTUwLThkYjQtZjI1MzMzZTNhZWVlXkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "35.",
+        "imdb_link": "https://www.imdb.com/title/tt1442437/?ref_=adv_li_tt",
+        "title": "Modern Family",
+        "genre": "Comedy, Drama, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzRhNWIxYTEtYjc2NS00YWFlLWFhOGEtMDZiMWM1M2RkNDkyXkEyXkFqcGdeQXVyNjc0MjkzNjc@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "36.",
+        "imdb_link": "https://www.imdb.com/title/tt3107288/?ref_=adv_li_tt",
+        "title": "The Flash",
+        "genre": "Action, Adventure, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDIzNzYwNTctZWY4Mi00YjQ2LWI5YWYtMzdmNDgwMGI4Yzk1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY98_CR5,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "37.",
+        "imdb_link": "https://www.imdb.com/title/tt3743822/?ref_=adv_li_tt",
+        "title": "Fear the Walking Dead",
+        "genre": "Drama, Horror, Sci-Fi",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDZkYTRjMWQtZThiOS00MjJlLWFkNDktNzNhODNhOWNlNjdjXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "38.",
+        "imdb_link": "https://www.imdb.com/title/tt3215824/?ref_=adv_li_tt",
+        "title": "Those Who Wish Me Dead",
+        "genre": "Action, Drama, Thriller",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTEyNDEzNjAtNjIyNy00ZGYxLWJjNDYtNTJhM2JhYjIxYTBmXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "39.",
+        "imdb_link": "https://www.imdb.com/title/tt0141842/?ref_=adv_li_tt",
+        "title": "The Sopranos",
+        "genre": "Crime, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZGJjYzhjYTYtMDBjYy00OWU1LTg5OTYtNmYwOTZmZjE3ZDdhXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UY98_CR1,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "40.",
+        "imdb_link": "https://www.imdb.com/title/tt5834204/?ref_=adv_li_tt",
+        "title": "The Handmaid's Tale",
+        "genre": "Drama, Sci-Fi, Thriller",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZGZiMTkzZjktNzk0OC00NzEzLWJjOTMtYjdkMWM1NGU1ZDM4XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UY98_CR1,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "41.",
+        "imdb_link": "https://www.imdb.com/title/tt4574334/?ref_=adv_li_tt",
+        "title": "Stranger Things",
+        "genre": "Drama, Fantasy, Horror",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjEzMDAxOTUyMV5BMl5BanBnXkFtZTgwNzAxMzYzOTE@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "42.",
+        "imdb_link": "https://www.imdb.com/title/tt0460681/?ref_=adv_li_tt",
+        "title": "Supernatural",
+        "genre": "Drama, Fantasy, Horror",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzRmZWJhNjUtY2ZkYy00N2MyLWJmNTktOTAwY2VkODVmOGY3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "43.",
+        "imdb_link": "https://www.imdb.com/title/tt3032476/?ref_=adv_li_tt",
+        "title": "Better Call Saul",
+        "genre": "Crime, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMGE4YzY4NGEtOWYyYS00ZDk2LWExMmMtZDIyODhiMmNlMGE0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "44.",
+        "imdb_link": "https://www.imdb.com/title/tt8740790/?ref_=adv_li_tt",
+        "title": "Bridgerton",
+        "genre": "Drama, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjIxMzZhMTMtNDQ1Mi00OTMwLTk2M2ItYzA0YmNjNDFlOTdhXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "45.",
+        "imdb_link": "https://www.imdb.com/title/tt0364845/?ref_=adv_li_tt",
+        "title": "NCIS: Naval Criminal Investigative Service",
+        "genre": "Action, Crime, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjVlMjZhYzYtOGQxNC00OTQxLTk2NzEtMWFmMmNhODA4YjYzXkEyXkFqcGdeQXVyNjQ3MDgwNjY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "46.",
+        "imdb_link": "https://www.imdb.com/title/tt10540276/?ref_=adv_li_tt",
+        "title": "Snabba Cash",
+        "genre": "Action, Crime, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZTI5MTk0ZGQtN2FhOC00OWVmLWFkZjMtMGE5NTkyN2Q2MWZlXkEyXkFqcGdeQXVyNjEwNTM2Mzc@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "47.",
+        "imdb_link": "https://www.imdb.com/title/tt2403776/?ref_=adv_li_tt",
+        "title": "Shadow and Bone",
+        "genre": "Action, Drama, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTNhY2JlMmItMGMzZi00ZTM2LTlmNTItZDBkMGVhNGJhYWRhXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UY98_CR5,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "48.",
+        "imdb_link": "https://www.imdb.com/title/tt10813940/?ref_=adv_li_tt",
+        "title": "Ginny & Georgia",
+        "genre": "Comedy, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTQ2ZWFlNmEtNWYyYy00Yjk1LWIxMTEtMWVkM2NlMTEzOGI2XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "49.",
+        "imdb_link": "https://www.imdb.com/title/tt4052886/?ref_=adv_li_tt",
+        "title": "Lucifer",
+        "genre": "Crime, Drama, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzY1YjIxOGMtOTAyZC00YTcyLWFhMzQtZTJkYTljYzU0MGRlXkEyXkFqcGdeQXVyMTAwMzM3NDI3._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "50.",
+        "imdb_link": "https://www.imdb.com/title/tt4236770/?ref_=adv_li_tt",
+        "title": "Yellowstone",
+        "genre": "Drama, Western",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZjhkNWM1NTQtODI4NS00NzllLTg1ODAtYjg3N2QxZjc3ZjRiXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_UY98_CR2,0,67,98_AL_.jpg"
+    }
+]

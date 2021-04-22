@@ -12,7 +12,7 @@ from NN.neural import classify
 import sys
 from Recommendation.quotes import scrape
 from Recommendation.songs import songs
-from Recommendation.movies import fetch_songs
+from Recommendation.movies import fetch_movies
 from Recommendation.books import book_select
 
 app = Flask(__name__)
@@ -71,10 +71,7 @@ class NaiveBayesClassifier(object):
 def home(): 
     return render_template("home.html")
 
-
-#def phq9que():
 @app.route("/get")
-
 def get_bot_response():
     global iter, name, pred ,phq , tag1
     userText = request.args.get('msg')
@@ -133,7 +130,7 @@ def get_bot_response():
             session['books1']=book_display[0:4]
             session['books2']=book_display[4:]
             #movies
-            movies = fetch_songs()
+            movies = fetch_movies(str(tag1))
             session['movies1']=movies[0:4]
             session['movies2']=movies[4:]
         elif(userText=="Yes"):
@@ -164,12 +161,9 @@ def get_bot_response():
         session['books1']=book_display[0:4]
         session['books2']=book_display[4:]
         #movies
-        movies = fetch_songs()
+        movies = fetch_movies(str(tag1))
         session['movies1']=movies[0:4]
         session['movies2']=movies[4:]
-
-    
-
 
     return response
     

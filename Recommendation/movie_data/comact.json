@@ -1,0 +1,352 @@
+[
+    {
+        "id": "1.",
+        "imdb_link": "https://www.imdb.com/title/tt10121392/?ref_=adv_li_tt",
+        "title": "Thunder Force",
+        "genre": "Action, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMWZkM2I2NjEtNWM0Mi00MTgwLWJlYTAtYmNkZWYzNmQ1ZTBiXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "2.",
+        "imdb_link": "https://www.imdb.com/title/tt2222042/?ref_=adv_li_tt",
+        "title": "Love and Monsters",
+        "genre": "Action, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYWVkMWEyMDUtZTVmOC00MTYxLWE1ZTUtNjk4M2IzMjY2OTIxXkEyXkFqcGdeQXVyMDk5Mzc5MQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "3.",
+        "imdb_link": "https://www.imdb.com/title/tt9140560/?ref_=adv_li_tt",
+        "title": "WandaVision",
+        "genre": "Action, Comedy, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjJiZmE5ZDgtYWUxZi00MWI1LTg2MmEtZmUwZGE2YzRkNTE5XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "4.",
+        "imdb_link": "https://www.imdb.com/title/tt6334354/?ref_=adv_li_tt",
+        "title": "The Suicide Squad",
+        "genre": "Action, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNGM3YzdlOWYtNjViZS00MTE2LWE1MWUtZmE2ZTcxZjcyMmU3XkEyXkFqcGdeQXVyODEyMTI1MjA@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "5.",
+        "imdb_link": "https://www.imdb.com/title/tt1190634/?ref_=adv_li_tt",
+        "title": "The Boys",
+        "genre": "Action, Comedy, Crime",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNGEyOGJiNWEtMTgwMi00ODU4LTlkMjItZWI4NjFmMzgxZGY2XkEyXkFqcGdeQXVyNjcyNjcyMzQ@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "6.",
+        "imdb_link": "https://www.imdb.com/title/tt8385148/?ref_=adv_li_tt",
+        "title": "Hitman's Wife's Bodyguard",
+        "genre": "Action, Comedy, Crime",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDkzYmNiOWYtNzZkNi00NzNiLTk2MzktY2VmMGY4MmI1NDMwXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_UY98_CR5,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "7.",
+        "imdb_link": "https://www.imdb.com/title/tt5109280/?ref_=adv_li_tt",
+        "title": "Raya and the Last Dragon",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZWNiOTc4NGItNGY4YS00ZGNkLThkOWEtMDE2ODcxODEwNjkwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "8.",
+        "imdb_link": "https://www.imdb.com/title/tt7221388/?ref_=adv_li_tt",
+        "title": "Cobra Kai",
+        "genre": "Action, Comedy, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOTE1M2Q3YjQtZGMzYy00MDcwLWIzNzctYzI3MDBhMjBmYTQwXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "9.",
+        "imdb_link": "https://www.imdb.com/title/tt11655202/?ref_=adv_li_tt",
+        "title": "Retf\u00e6rdighedens ryttere",
+        "genre": "Action, Comedy, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZWVkNTFmNTQtMGRiZC00NjAwLThjYTgtYmI3ZjA2Zjc1MTM1XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "10.",
+        "imdb_link": "https://www.imdb.com/title/tt5626028/?ref_=adv_li_tt",
+        "title": "Boku no h\u00eer\u00f4 akademia",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNmQzYmE2MGEtZjk4YS00YmVjLWEwZWMtODRkMjc4MTM5N2I3XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UY98_CR5,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "11.",
+        "imdb_link": "https://www.imdb.com/title/tt12976292/?ref_=adv_li_tt",
+        "title": "Powerpuff",
+        "genre": "Action, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMWQ0ZjNhMzMtYTU1Yi00ZDM3LWIzMGUtMmZjYWYyMjNjNDc0XkEyXkFqcGdeQXVyNzg4MTU3MDk@._V1_UY98_CR60,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "12.",
+        "imdb_link": "https://www.imdb.com/title/tt8114980/?ref_=adv_li_tt",
+        "title": "Willy's Wonderland",
+        "genre": "Action, Comedy, Horror",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOTc3ZjVkYTYtMDZiMC00OTliLWE3OTEtYjY5NTBmNGJjYTBmXkEyXkFqcGdeQXVyNDExMzMxNjE@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "13.",
+        "imdb_link": "https://www.imdb.com/title/tt1959563/?ref_=adv_li_tt",
+        "title": "The Hitman's Bodyguard",
+        "genre": "Action, Comedy, Crime",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjQ5NjA2NDg1MV5BMl5BanBnXkFtZTgwMDAzNDc4MjI@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "14.",
+        "imdb_link": "https://www.imdb.com/title/tt8367814/?ref_=adv_li_tt",
+        "title": "The Gentlemen",
+        "genre": "Action, Comedy, Crime",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTlkMmVmYjktYTc2NC00ZGZjLWEyOWUtMjc2MDMwMjQwOTA5XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "15.",
+        "imdb_link": "https://www.imdb.com/title/tt3501632/?ref_=adv_li_tt",
+        "title": "Thor: Ragnarok",
+        "genre": "Action, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "16.",
+        "imdb_link": "https://www.imdb.com/title/tt2015381/?ref_=adv_li_tt",
+        "title": "Guardians of the Galaxy",
+        "genre": "Action, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "17.",
+        "imdb_link": "https://www.imdb.com/title/tt0132347/?ref_=adv_li_tt",
+        "title": "Mystery Men",
+        "genre": "Action, Comedy, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjdkZDRhYTgtNDliYS00ZmE1LThjYWMtOWNjNzNiODFmY2VmXkEyXkFqcGdeQXVyNjc4ODQwNzg@._V1_UY98_CR1,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "18.",
+        "imdb_link": "https://www.imdb.com/title/tt0388629/?ref_=adv_li_tt",
+        "title": "One Piece: Wan p\u00eesu",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BODcwNWE3OTMtMDc3MS00NDFjLWE1OTAtNDU3NjgxODMxY2UyXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "19.",
+        "imdb_link": "https://www.imdb.com/title/tt0057193/?ref_=adv_li_tt",
+        "title": "It's a Mad Mad Mad Mad World",
+        "genre": "Action, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BN2YyYjUzYmMtZDNmMy00ODRmLWExOTYtMzg5NzQ5NzZhNjA1L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "20.",
+        "imdb_link": "https://www.imdb.com/title/tt7658402/?ref_=adv_li_tt",
+        "title": "Harley Quinn",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNWRhMTVhNjgtZjcyMS00N2YzLWI2N2QtNTYwMGFlOTdmMGY1XkEyXkFqcGdeQXVyMjkyNzYwMTc@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "21.",
+        "imdb_link": "https://www.imdb.com/title/tt8416494/?ref_=adv_li_tt",
+        "title": "Doom Patrol",
+        "genre": "Action, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BM2I1OWZiNTUtZGNmOS00NGNiLTlhZmItOTU3MGRlMWFkYWU3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "22.",
+        "imdb_link": "https://www.imdb.com/title/tt5463162/?ref_=adv_li_tt",
+        "title": "Deadpool 2",
+        "genre": "Action, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjk1Njk3YjctMmMyYS00Y2I4LThhMzktN2U0MTMyZTFlYWQ5XkEyXkFqcGdeQXVyODM2ODEzMDA@._V1_UY98_CR15,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "23.",
+        "imdb_link": "https://www.imdb.com/title/tt3896198/?ref_=adv_li_tt",
+        "title": "Guardians of the Galaxy Vol. 2",
+        "genre": "Action, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjM0NTc0NzItM2FlYS00YzEwLWE0YmUtNTA2ZWIzODc2OTgxXkEyXkFqcGdeQXVyNTgwNzIyNzg@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "24.",
+        "imdb_link": "https://www.imdb.com/title/tt7713068/?ref_=adv_li_tt",
+        "title": "Birds of Prey: And the Fantabulous Emancipation of One Harley Quinn",
+        "genre": "Action, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMzQ3NTQxMjItODBjYi00YzUzLWE1NzQtZTBlY2Y2NjZlNzkyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "25.",
+        "imdb_link": "https://www.imdb.com/title/tt6264654/?ref_=adv_li_tt",
+        "title": "Free Guy",
+        "genre": "Action, Comedy, Sci-Fi",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTNjNzFiZTItNDM5NS00ODBhLTk5NmMtYzUyZWRmOWJjOTI3XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "26.",
+        "imdb_link": "https://www.imdb.com/title/tt1431045/?ref_=adv_li_tt",
+        "title": "Deadpool",
+        "genre": "Action, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYzE5MjY1ZDgtMTkyNC00MTMyLThhMjAtZGI5OTE1NzFlZGJjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "27.",
+        "imdb_link": "https://www.imdb.com/title/tt0446029/?ref_=adv_li_tt",
+        "title": "Scott Pilgrim vs. the World",
+        "genre": "Action, Comedy, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZDM4Y2Q5ZDUtMTM0NS00YmEyLWFlMGQtYTYwODE3Y2RmMzUwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "28.",
+        "imdb_link": "https://www.imdb.com/title/tt0478970/?ref_=adv_li_tt",
+        "title": "Ant-Man",
+        "genre": "Action, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjM2NTQ5Mzc2M15BMl5BanBnXkFtZTgwNTcxMDI2NTE@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "29.",
+        "imdb_link": "https://www.imdb.com/title/tt1486217/?ref_=adv_li_tt",
+        "title": "Archer",
+        "genre": "Animation, Action, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTg3NTMwMzY2OF5BMl5BanBnXkFtZTgwMDcxMjQ0NDE@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "30.",
+        "imdb_link": "https://www.imdb.com/title/tt1469304/?ref_=adv_li_tt",
+        "title": "Baywatch",
+        "genre": "Action, Comedy, Crime",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTA4MjQ0ODQzNF5BMl5BanBnXkFtZTgwNzA5NjYzMjI@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "31.",
+        "imdb_link": "https://www.imdb.com/title/tt0934814/?ref_=adv_li_tt",
+        "title": "Chuck",
+        "genre": "Action, Comedy, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTM0ODIwNjI3NF5BMl5BanBnXkFtZTcwODU2ODUzMw@@._V1_UY98_CR3,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "32.",
+        "imdb_link": "https://www.imdb.com/title/tt5348176/?ref_=adv_li_tt",
+        "title": "Barry",
+        "genre": "Action, Comedy, Crime",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMmY1NTk5N2QtYWQyOS00NjhiLWFhZmYtYWZmZGFlMjEzY2E2XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "33.",
+        "imdb_link": "https://www.imdb.com/title/tt2098220/?ref_=adv_li_tt",
+        "title": "Hunter x Hunter",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZjNmZDhkN2QtNDYyZC00YzJmLTg0ODUtN2FjNjhhMzE3ZmUxXkEyXkFqcGdeQXVyNjc2NjA5MTU@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "34.",
+        "imdb_link": "https://www.imdb.com/title/tt0099938/?ref_=adv_li_tt",
+        "title": "Kindergarten Cop",
+        "genre": "Action, Comedy, Crime",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjMyMTIyOTc0N15BMl5BanBnXkFtZTgwODY1NTk4NjE@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "35.",
+        "imdb_link": "https://www.imdb.com/title/tt13357124/?ref_=adv_li_tt",
+        "title": "Gokushufudo",
+        "genre": "Animation, Action, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOWZhZTE1NDAtODQ5Yy00NDQ3LWE5ZDctMTZjZmU5OGFiZWYwXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_UY98_CR1,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "36.",
+        "imdb_link": "https://www.imdb.com/title/tt0988824/?ref_=adv_li_tt",
+        "title": "Naruto: Shipp\u00fbden",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTE5NzIwMGUtYTE1MS00MDUxLTgyZjctOWVkZDAxM2M4ZWQ4XkEyXkFqcGdeQXVyNjc2NjA5MTU@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "37.",
+        "imdb_link": "https://www.imdb.com/title/tt2802144/?ref_=adv_li_tt",
+        "title": "Kingsman: The Secret Service",
+        "genre": "Action, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTM3ZTllNzItNTNmOS00NzJiLTg1MWMtMjMxNDc0NmJhODU5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "38.",
+        "imdb_link": "https://www.imdb.com/title/tt7441658/?ref_=adv_li_tt",
+        "title": "Black Clover",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTAzYTlkMWEtOTNjZC00ZDU0LWI5ODUtYTRmYzY0MTAzYWZlXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "39.",
+        "imdb_link": "https://www.imdb.com/title/tt6317068/?ref_=adv_li_tt",
+        "title": "Final Space",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BODRjZGY3ZDktZGIxOC00MWUzLTg1N2EtNDM1NTQ2ZTkxYjc1XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_UY98_CR8,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "40.",
+        "imdb_link": "https://www.imdb.com/title/tt1355642/?ref_=adv_li_tt",
+        "title": "Hagane no renkinjutsushi",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZmEzN2YzOTItMDI5MS00MGU4LWI1NWQtOTg5ZThhNGQwYTEzXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UY98_CR1,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "41.",
+        "imdb_link": "https://www.imdb.com/title/tt7975244/?ref_=adv_li_tt",
+        "title": "Jumanji: The Next Level",
+        "genre": "Action, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOTVjMmFiMDUtOWQ4My00YzhmLWE3MzEtODM1NDFjMWEwZTRkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "42.",
+        "imdb_link": "https://www.imdb.com/title/tt0087332/?ref_=adv_li_tt",
+        "title": "Ghost Busters",
+        "genre": "Action, Comedy, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTkxMjYyNzgwMl5BMl5BanBnXkFtZTgwMTE3MjYyMTE@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "43.",
+        "imdb_link": "https://www.imdb.com/title/tt4649466/?ref_=adv_li_tt",
+        "title": "Kingsman: The Golden Circle",
+        "genre": "Action, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjQ3OTgzMzY4NF5BMl5BanBnXkFtZTgwOTc4OTQyMzI@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "44.",
+        "imdb_link": "https://www.imdb.com/title/tt3909224/?ref_=adv_li_tt",
+        "title": "Nanatsu no taizai",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BM2VmODMyZTUtOWFkNC00OGI5LTg5NjEtMjFiMjU0MDQxMDcyXkEyXkFqcGdeQXVyMTI2NTY3NDg5._V1_UY98_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "45.",
+        "imdb_link": "https://www.imdb.com/title/tt6856242/?ref_=adv_li_tt",
+        "title": "The King's Man",
+        "genre": "Action, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZGE2MmQ0ZTEtM2FjOC00OTE1LTlmYjMtYjlkMzllN2RlOTBiXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "46.",
+        "imdb_link": "https://www.imdb.com/title/tt0942385/?ref_=adv_li_tt",
+        "title": "Tropic Thunder",
+        "genre": "Action, Comedy, War",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDE5NjQzMDkzOF5BMl5BanBnXkFtZTcwODI3ODI3MQ@@._V1_UY98_CR1,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "47.",
+        "imdb_link": "https://www.imdb.com/title/tt0448115/?ref_=adv_li_tt",
+        "title": "Shazam!",
+        "genre": "Action, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOWZhZjE4NGQtODg5Ni00MjQ1LWJmMzAtNzQ2N2M1NzYzMDJkXkEyXkFqcGdeQXVyMjMwNDgzNjc@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "48.",
+        "imdb_link": "https://www.imdb.com/title/tt0425112/?ref_=adv_li_tt",
+        "title": "Hot Fuzz",
+        "genre": "Action, Comedy, Mystery",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMzg4MDJhMDMtYmJiMS00ZDZmLThmZWUtYTMwZDM1YTc5MWE2XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "49.",
+        "imdb_link": "https://www.imdb.com/title/tt4508902/?ref_=adv_li_tt",
+        "title": "One Punch Man: Wanpanman",
+        "genre": "Animation, Action, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTNmZDE2NDEtNTg3MS00OTE1LThlZGUtOGZkZTg0NTUyNGVmXkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "50.",
+        "imdb_link": "https://www.imdb.com/title/tt0409591/?ref_=adv_li_tt",
+        "title": "Naruto",
+        "genre": "Animation, Action, Adventure",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZmQ5NGFiNWEtMmMyMC00MDdiLTg4YjktOGY5Yzc2MDUxMTE1XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    }
+]

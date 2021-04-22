@@ -1,0 +1,352 @@
+[
+    {
+        "id": "1.",
+        "imdb_link": "https://www.imdb.com/title/tt5555260/?ref_=adv_li_tt",
+        "title": "This Is Us",
+        "genre": "Comedy, Drama, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjNlOWY2OWEtMGQyOC00YWQ4LWJkMjUtYzU4NGEzNjM2MWY0XkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "2.",
+        "imdb_link": "https://www.imdb.com/title/tt1442437/?ref_=adv_li_tt",
+        "title": "Modern Family",
+        "genre": "Comedy, Drama, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzRhNWIxYTEtYjc2NS00YWFlLWFhOGEtMDZiMWM1M2RkNDkyXkEyXkFqcGdeQXVyNjc0MjkzNjc@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "3.",
+        "imdb_link": "https://www.imdb.com/title/tt0108778/?ref_=adv_li_tt",
+        "title": "Friends",
+        "genre": "Comedy, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "4.",
+        "imdb_link": "https://www.imdb.com/title/tt9484998/?ref_=adv_li_tt",
+        "title": "Palm Springs",
+        "genre": "Comedy, Fantasy, Mystery",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjk0MTgzMmQtZmY2My00NmE5LWExNGUtYjZkNTA3ZDkyMTJiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "5.",
+        "imdb_link": "https://www.imdb.com/title/tt0898266/?ref_=adv_li_tt",
+        "title": "The Big Bang Theory",
+        "genre": "Comedy, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BY2FmZTY5YTktOWRlYy00NmIyLWE0ZmQtZDg2YjlmMzczZDZiXkEyXkFqcGdeQXVyNjg4NzAyOTA@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "6.",
+        "imdb_link": "https://www.imdb.com/title/tt3288518/?ref_=adv_li_tt",
+        "title": "Younger",
+        "genre": "Comedy, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMWE0YmQ1NTAtYjAyMi00MTM4LWFmMTItYzA2ODU0NWUwZTczXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "7.",
+        "imdb_link": "https://www.imdb.com/title/tt0460649/?ref_=adv_li_tt",
+        "title": "How I Met Your Mother",
+        "genre": "Comedy, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjg1MDQ5MjQ2N15BMl5BanBnXkFtZTYwNjI5NjA3._V1_UY98_CR3,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "8.",
+        "imdb_link": "https://www.imdb.com/title/tt0460627/?ref_=adv_li_tt",
+        "title": "Bones",
+        "genre": "Comedy, Crime, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjA3ODMxMzM5NF5BMl5BanBnXkFtZTgwMDM1NjU0OTE@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "9.",
+        "imdb_link": "https://www.imdb.com/title/tt0110366/?ref_=adv_li_tt",
+        "title": "The Little Rascals",
+        "genre": "Comedy, Family, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYWE1MzdmNmMtNWQwZS00MTVkLTk3MDMtYzVkOWZlOTczMDIwXkEyXkFqcGdeQXVyNjg4NzYzMzA@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "10.",
+        "imdb_link": "https://www.imdb.com/title/tt0106080/?ref_=adv_li_tt",
+        "title": "The Nanny",
+        "genre": "Comedy, Family, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BM2VlZTE4N2MtYjhhYy00ZWY2LThkMWYtMWFhMGQ1YTA5NTgwXkEyXkFqcGdeQXVyODQwNjgyMw@@._V1_UY98_CR1,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "11.",
+        "imdb_link": "https://www.imdb.com/title/tt7608248/?ref_=adv_li_tt",
+        "title": "A Million Little Things",
+        "genre": "Comedy, Drama, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZTQ3MTIwZTItYjIyOC00OGMzLWE5OTgtYzQ1MTNlM2NmMjI4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY98_CR5,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "12.",
+        "imdb_link": "https://www.imdb.com/title/tt0250494/?ref_=adv_li_tt",
+        "title": "Legally Blonde",
+        "genre": "Comedy, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTEyNjUwMTkxMV5BMl5BanBnXkFtZTcwNjk0NDk0NA@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "13.",
+        "imdb_link": "https://www.imdb.com/title/tt0369179/?ref_=adv_li_tt",
+        "title": "Two and a Half Men",
+        "genre": "Comedy, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOTI2MjIzN2ItZDg0OS00MTlhLWIzMTMtYWI4ZTA0NGE4NDJlXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "14.",
+        "imdb_link": "https://www.imdb.com/title/tt1219024/?ref_=adv_li_tt",
+        "title": "Castle",
+        "genre": "Comedy, Crime, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjM2NjU0ODU0NF5BMl5BanBnXkFtZTgwMDAwMzg5NjE@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "15.",
+        "imdb_link": "https://www.imdb.com/title/tt0410975/?ref_=adv_li_tt",
+        "title": "Desperate Housewives",
+        "genre": "Comedy, Drama, Mystery",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYzI2MTFjZDktYTZhNS00YTU2LWI5ZTMtM2MzNDU1YjNhNTJlXkEyXkFqcGdeQXVyNzA5NjUyNjM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "16.",
+        "imdb_link": "https://www.imdb.com/title/tt0094898/?ref_=adv_li_tt",
+        "title": "Coming to America",
+        "genre": "Comedy, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNGZlNjdlZmMtYTg0MC00MmZkLWIyNDktYmNlOWYzMTkzYWQ1XkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "17.",
+        "imdb_link": "https://www.imdb.com/title/tt2660806/?ref_=adv_li_tt",
+        "title": "Mom",
+        "genre": "Comedy, Drama, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNWI0ZjU4MzUtMTdmMy00OWVkLThhNWItNzQ4NDEyNTBiY2ZjXkEyXkFqcGdeQXVyNjg4NzAyOTA@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "18.",
+        "imdb_link": "https://www.imdb.com/title/tt4955642/?ref_=adv_li_tt",
+        "title": "The Good Place",
+        "genre": "Comedy, Drama, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYmMxNjM0NmItNGU1Mi00OGMwLTkzMzctZmE3YjU1ZDE4NmFjXkEyXkFqcGdeQXVyODUxOTU0OTg@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "19.",
+        "imdb_link": "https://www.imdb.com/title/tt9164986/?ref_=adv_li_tt",
+        "title": "The Baker and the Beauty",
+        "genre": "Comedy, Drama, Musical",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYmIzNDdkZDktYTVjMC00MzA3LWJkZmMtZTM3MjRlMmZlMjRkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "20.",
+        "imdb_link": "https://www.imdb.com/title/tt9214832/?ref_=adv_li_tt",
+        "title": "Emma.",
+        "genre": "Comedy, Drama, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOGRiODEzM2QtOTUyYi00MWRlLTg4MzMtZGI0YmUzNWUyMjQ0XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "21.",
+        "imdb_link": "https://www.imdb.com/title/tt1981677/?ref_=adv_li_tt",
+        "title": "Pitch Perfect",
+        "genre": "Comedy, Music, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTcyMTMzNzE5N15BMl5BanBnXkFtZTcwNzg5NjM5Nw@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "22.",
+        "imdb_link": "https://www.imdb.com/title/tt0446029/?ref_=adv_li_tt",
+        "title": "Scott Pilgrim vs. the World",
+        "genre": "Action, Comedy, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZDM4Y2Q5ZDUtMTM0NS00YmEyLWFlMGQtYTYwODE3Y2RmMzUwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "23.",
+        "imdb_link": "https://www.imdb.com/title/tt0159206/?ref_=adv_li_tt",
+        "title": "Sex and the City",
+        "genre": "Comedy, Drama, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNGEyNDRjM2QtY2VlYy00OWRhLWI4N2UtZTM4NDc0MGM0YzBkXkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "24.",
+        "imdb_link": "https://www.imdb.com/title/tt1478338/?ref_=adv_li_tt",
+        "title": "Bridesmaids",
+        "genre": "Comedy, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjAyOTMyMzUxNl5BMl5BanBnXkFtZTcwODI4MzE0NA@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "25.",
+        "imdb_link": "https://www.imdb.com/title/tt13433812/?ref_=adv_li_tt",
+        "title": "Binsenjo",
+        "genre": "Comedy, Crime, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYWIwYTg2Y2YtYzEwNy00Y2Y0LWFkZjktNjBlMWZhNDY2NGE0XkEyXkFqcGdeQXVyNDY5MjMyNTg@._V1_UY98_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "26.",
+        "imdb_link": "https://www.imdb.com/title/tt1570728/?ref_=adv_li_tt",
+        "title": "Crazy, Stupid, Love.",
+        "genre": "Comedy, Drama, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTg2MjkwMTM0NF5BMl5BanBnXkFtZTcwMzc4NDg2NQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "27.",
+        "imdb_link": "https://www.imdb.com/title/tt2194499/?ref_=adv_li_tt",
+        "title": "About Time",
+        "genre": "Comedy, Drama, Fantasy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTA1ODUzMDA3NzFeQTJeQWpwZ15BbWU3MDgxMTYxNTk@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "28.",
+        "imdb_link": "https://www.imdb.com/title/tt1758830/?ref_=adv_li_tt",
+        "title": "This Is 40",
+        "genre": "Comedy, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzQxMDQ1NjA4N15BMl5BanBnXkFtZTcwNTE5MjQ3OA@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "29.",
+        "imdb_link": "https://www.imdb.com/title/tt0298148/?ref_=adv_li_tt",
+        "title": "Shrek 2",
+        "genre": "Animation, Adventure, Comedy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDJhMGRjN2QtNDUxYy00NGM3LThjNGQtMmZiZTRhNjM4YzUxL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "30.",
+        "imdb_link": "https://www.imdb.com/title/tt0362359/?ref_=adv_li_tt",
+        "title": "The O.C.",
+        "genre": "Comedy, Drama, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMWIzZTA0ZDYtOGZiNS00MDRiLWJkNzMtN2RiMzVmMjZjYTJiXkEyXkFqcGdeQXVyODIxOTMwMjk@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "31.",
+        "imdb_link": "https://www.imdb.com/title/tt1632708/?ref_=adv_li_tt",
+        "title": "Friends with Benefits",
+        "genre": "Comedy, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTQ2MzQ0NTk4N15BMl5BanBnXkFtZTcwMDc2NDYzNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "32.",
+        "imdb_link": "https://www.imdb.com/title/tt0165598/?ref_=adv_li_tt",
+        "title": "That '70s Show",
+        "genre": "Comedy, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BN2RkZGE0MjAtZGVkOS00MzVhLTg0OWItZTc4OGRjOTQ1ZTM4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "33.",
+        "imdb_link": "https://www.imdb.com/title/tt3104988/?ref_=adv_li_tt",
+        "title": "Crazy Rich Asians",
+        "genre": "Comedy, Drama, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTYxNDMyOTAxN15BMl5BanBnXkFtZTgwMDg1ODYzNTM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "34.",
+        "imdb_link": "https://www.imdb.com/title/tt0100405/?ref_=adv_li_tt",
+        "title": "Pretty Woman",
+        "genre": "Comedy, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjk2ODQzNDYxNV5BMl5BanBnXkFtZTgwMTcyNDg4NjE@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "35.",
+        "imdb_link": "https://www.imdb.com/title/tt7820906/?ref_=adv_li_tt",
+        "title": "Good Trouble",
+        "genre": "Comedy, Drama, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYWI4YzEzZDEtYzZiZS00YmU0LWJkZmItNTBjYzAxODhjNmZjXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "36.",
+        "imdb_link": "https://www.imdb.com/title/tt0805669/?ref_=adv_li_tt",
+        "title": "Ugly Betty",
+        "genre": "Comedy, Drama, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTg4ODA2OTg5MF5BMl5BanBnXkFtZTcwNzcyMTQ5Mg@@._V1_UY98_CR3,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "37.",
+        "imdb_link": "https://www.imdb.com/title/tt0147800/?ref_=adv_li_tt",
+        "title": "10 Things I Hate About You",
+        "genre": "Comedy, Drama, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMmVhZjhlZDYtMDAwZi00MDcyLTgzOTItOWNiZjY0YmE0MGE0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "38.",
+        "imdb_link": "https://www.imdb.com/title/tt0972412/?ref_=adv_li_tt",
+        "title": "Private Practice",
+        "genre": "Comedy, Drama, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjQ4MjE1NzU5Nl5BMl5BanBnXkFtZTgwOTIwMzg5NjE@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "39.",
+        "imdb_link": "https://www.imdb.com/title/tt0265208/?ref_=adv_li_tt",
+        "title": "The Girl Next Door",
+        "genre": "Comedy, Drama, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTQ0ODIyMzE1N15BMl5BanBnXkFtZTcwODEwODczMw@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "40.",
+        "imdb_link": "https://www.imdb.com/title/tt0108174/?ref_=adv_li_tt",
+        "title": "So I Married an Axe Murderer",
+        "genre": "Comedy, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BODIxNzJhYjUtZWYwOC00YjI2LWI1ZDgtMDVjMjY3ODUyOGZjXkEyXkFqcGdeQXVyNjE5MjUyOTM@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "41.",
+        "imdb_link": "https://www.imdb.com/title/tt8962124/?ref_=adv_li_tt",
+        "title": "Emily in Paris",
+        "genre": "Comedy, Drama, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTFjZjQzZDgtOWEyNy00YmY1LTgyYjQtMTBlODUxZTBiZWRkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "42.",
+        "imdb_link": "https://www.imdb.com/title/tt6524350/?ref_=adv_li_tt",
+        "title": "Big Mouth",
+        "genre": "Animation, Comedy, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMzg0YzQzZTctOGM3OS00ZDE1LThiZDQtYzg4MTc1ZDUxZDM2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "43.",
+        "imdb_link": "https://www.imdb.com/title/tt1564367/?ref_=adv_li_tt",
+        "title": "Just Go with It",
+        "genre": "Comedy, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTM3MzM3NDE5MV5BMl5BanBnXkFtZTcwNDE5MTUxNA@@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "44.",
+        "imdb_link": "https://www.imdb.com/title/tt0972534/?ref_=adv_li_tt",
+        "title": "iCarly",
+        "genre": "Comedy, Family, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTIwY2M1NWEtZWQxYy00YjVkLTgwMmQtYjY1NmU5ZGQxODk4XkEyXkFqcGdeQXVyNjcyNzkwMTc@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "45.",
+        "imdb_link": "https://www.imdb.com/title/tt1587678/?ref_=adv_li_tt",
+        "title": "Happy Endings",
+        "genre": "Comedy, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjE0NTQyOTM5OF5BMl5BanBnXkFtZTcwOTYyMTU2OA@@._V1_UY98_CR3,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "46.",
+        "imdb_link": "https://www.imdb.com/title/tt1748122/?ref_=adv_li_tt",
+        "title": "Moonrise Kingdom",
+        "genre": "Comedy, Drama, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMzllMWI1ZDQtMmFhNS00NzJkLThmMTMtNzFmMmMyYjU3ZGVjXkEyXkFqcGdeQXVyMDI2NDg0NQ@@._V1_UY98_CR1,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "47.",
+        "imdb_link": "https://www.imdb.com/title/tt3783958/?ref_=adv_li_tt",
+        "title": "La La Land",
+        "genre": "Comedy, Drama, Music",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "48.",
+        "imdb_link": "https://www.imdb.com/title/tt5460226/?ref_=adv_li_tt",
+        "title": "Search Party",
+        "genre": "Comedy, Crime, Drama",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOTc4N2MyZjYtZWFkMy00ZDdiLTg1YmYtNTE4MTgyYmQ4NTEyXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "49.",
+        "imdb_link": "https://www.imdb.com/title/tt1024255/?ref_=adv_li_tt",
+        "title": "Wild Child",
+        "genre": "Comedy, Drama, Romance",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzUzYTM2YjgtN2I5OC00MmIwLWJhOTgtNjc1ZmFmYzI3MTUwXkEyXkFqcGdeQXVyMTMxMTY0OTQ@._V1_UX67_CR0,0,67,98_AL_.jpg"
+    },
+    {
+        "id": "50.",
+        "imdb_link": "https://www.imdb.com/title/tt7178640/?ref_=adv_li_tt",
+        "title": "Superintelligence",
+        "genre": "Comedy, Romance, Sci-Fi",
+        "poster": "https://m.media-amazon.com/images/M/MV5BM2MwYjBiYzctODFjNi00ZDRiLWE2NGMtODFhMDg1NGVjZDQ3XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX67_CR0,0,67,98_AL_.jpg"
+    }
+]

@@ -168,108 +168,6 @@
       border-radius: 15px;
     }
 
-    /*Movie poster*/
-    @import url(https://fonts.googleapis.com/css?family=Lobster);
-    @import url(https://fonts.googleapis.com/css?family=Lato);
-    body {
-      background: url(https://static.pexels.com/photos/1043/red-building-industry-bricks-large.jpg) no-repeat;
-      background-size: cover;
-      color: #FFF;
-      font-family: 'Lato';
-    }
-
-    .img-responsive {
-      width: 90vw;
-      max-width:500px;
-    }
-
-    h1 {
-      font-family: 'Lobster';
-      font-size: 6rem;
-      color: black;
-      transform: rotate(-10deg);
-    }
-
-    .alert {
-      margin-top: 10px;
-    }
-
-    .container {
-      display: flex;
-      align-items: flex-start;
-      justify-content: center;
-      background: rgba(255, 255, 255, 0.2);
-      min-height: 100vh;
-      overflow:hidden;
-    }
-
-    .search {
-      flex: 1;
-      text-align: center;
-    }
-
-    button {
-      background-color: black;
-      border: 0;
-      color: white;
-      font-size: 2em;
-      padding: 10px;
-      margin-left: 0;
-      font-family: 'Lobster';
-    }
-
-    input[type=text] {
-      background: rgba(255, 255, 255, 0.5);
-      outline: none;
-      border: 3px solid black;
-      color: black;
-      font-family: 'Lato';
-      font-size: 2em;
-      padding: 8px;
-      margin-right: 0;
-      text-align:center;
-    }
-
-
-    ::-webkit-input-placeholder {
-      color: black;
-    }
-
-    :-moz-placeholder {
-      /* Firefox 18- */
-      color: black;
-    }
-
-    ::-moz-placeholder {
-      /* Firefox 19+ */
-      color: black;
-    }
-
-    :-ms-input-placeholder {
-      color: black;
-    }
-
-    #poster {
-      margin-top: 20px
-    }
-
-    #poster p {
-      font-size: 2em;
-      color: black;
-    }
-
-    input:focus {
-      outline: none;
-    }
-
-    .alert {
-      background-color: rgba(0, 0, 0, 0.95);
-      display: inline;
-      padding: 10px;
-      color: white;
-    }
-    /*Movie ends*/
-
     </style>
  <!----------Style for Login/Registration Form  -->
 
@@ -554,9 +452,8 @@
       <div class="card-body">
         <h4 class="card-title">{{ movie['title'] }}</h4>
         <p class="card-text">{{ movie['genre'] }}</p>
-        <div id="poster">
-        </div>
-        <!--<center><img src={{ movie['poster'] }} /></center>-->
+       
+        <center><img src={{ movie['poster'] }} /></center>
       </div>
     </div>
     </div>
@@ -700,58 +597,7 @@ function myFunctionlogin() {
    
 }
 
-    /*Movie Poster*/
-
-    //console.log($.getJSON("https://api.themoviedb.org/3/discover/movie?api_key=15d2ea6d0dc1d476efbca3eba2b9bbfb"));
-
-
-      $('#term').focus(function(){
-        var full = $("#poster").has("img").length ? true : false;
-        if(full == false){
-          $('#poster').empty();
-        }
-      });
-
-      var getPoster = function(){
-
-          var film = $('#term').val();
-
-          if(film == ''){
-
-              $('#poster').html('<div class="alert"><strong>Oops!</strong> Try adding something into the search field.</div>');
-
-          } else {
-
-              $('#poster').html('<div class="alert"><strong>Loading...</strong></div>');
-
-              $.getJSON("https://api.themoviedb.org/3/search/movie?api_key=15d2ea6d0dc1d476efbca3eba2b9bbfb&query=" + film + "&callback=?", function(json) {
-                if (json != "Nothing found."){                 
-      console.log(json);
-                      $('#poster').html('<p>Your search found: <strong>' + json.results[0].title + '</strong></p><img src=\"http://image.tmdb.org/t/p/w500/' + json.results[0].poster_path + '\" class=\"img-responsive\" >');
-                    } else {
-                      $.getJSON("https://api.themoviedb.org/3/search/movie?api_key=15d2ea6d0dc1d476efbca3eba2b9bbfb&query=goonies&callback=?", function(json) {
-                        
-                        console.log(json);
-                          $('#poster').html('<div class="alert"><p>We\'re afraid nothing was found for that search.</p></div><p>Perhaps you were looking for The Goonies?</p><img id="thePoster" src="http://image.tmdb.org/t/p/w500/' + json[0].poster_path + ' class="img-responsive" />');
-                      });
-                    }
-              });
-
-            }
-
-          return false;
-      }
-
-      $('#search').click(getPoster);
-      $('#term').keyup(function(event){
-        if(event.keyCode == 13){
-            getPoster();
-        }
-      });
-
-
-    /*Movie ends*/
-
+    
     </script>
     
 

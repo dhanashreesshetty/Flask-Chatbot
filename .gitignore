@@ -4,3 +4,4 @@ database.sqlite3-wal
 venv/
 *.pyc
 /*_session/
+flask_session/

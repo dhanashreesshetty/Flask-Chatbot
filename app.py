@@ -148,6 +148,7 @@ def get_bot_response():
             phq=phq+1
         else:
             response=re.sub("Name",name,responses[7])
+            iter=9
 
     elif iter==9:
         response=responses[8]

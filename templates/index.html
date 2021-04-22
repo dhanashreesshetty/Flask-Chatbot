@@ -153,7 +153,7 @@
             if(data.includes("%"))
         {
           msgText=msgText.slice(0, msgText.length -1);
-          msgText=msgText+"     our Phq-9 test has predicted that you have ";
+          msgText=msgText+"Our PHQ-9 test results indicate that you might have ";
           if (phq9_weight<=4 )
           {
             msgText=msgText+"Minimal Depression."
@@ -167,12 +167,12 @@
 
           }
           else if (phq9_weight<=19){
-            msgText=msgText+"Moderately severe Depression.Please contact :- 09820466726 for counselling."
+            msgText=msgText+" moderately severe depression. However, there could be margins of errors so we recommend you contact the following foundations/ helplines and seek their help<br>1. COOJ Mental Health Foundation (COOJ) <br> Helpline: +91-8322252525 <br>Time: 01:00 PM - 07:00 PM | Monday to Friday <br><br>2.Parivarthan <br>Time: 10:00 AM - 10:00 PM | Monday to Friday <br>Languages: All Indian languages except తెలుగు, മലയാളി <br>Website: www.parivarthan.org<br><br>3. Connecting Trust<br>Helpline: +91-9922001122, +91-9922004305<br>Time: 12:00 PM - 08:00 PM | All days of the week<br>Languages: English, हिंदी, मराठी<br>Website: https://connectingngo.org"
 
           }          
           else if (phq9_weight<=27){
-            msgText=msgText+"Severe Depression.Please contact:- 09820466726 for counselling."
-
+            msgText=msgText+"Severe Depression. However, there could be margins of errors so we recommend you contact the following foundations/ helplines and seek their help<br>1. COOJ Mental Health Foundation (COOJ) <br> Helpline: +91-8322252525 <br>Time: 01:00 PM - 07:00 PM | Monday to Friday <br><br>2.Parivarthan <br>Time: 10:00 AM - 10:00 PM | Monday to Friday <br>Languages: All Indian languages except తెలుగు, മലയാളി <br>Website: www.parivarthan.org<br><br>3. Connecting Trust<br>Helpline: +91-9922001122, +91-9922004305<br>Time: 12:00 PM - 08:00 PM | All days of the week<br>Languages: English, हिंदी, मराठी<br>Website: https://connectingngo.org"
+           
           }
           
           appendMessage(BOT_NAME, BOT_IMG, "left", msgText, false);

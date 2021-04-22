@@ -39,7 +39,7 @@ responses=["Greeting Name, that's a nice name!","So Name, how are you feeling to
 ["That's too bad😓 But hey! As it is rightly said, you are bigger and better than whatever is intimidating, scaring or hurting you! So don't lose hope!",
 "That's too bad😓 But hey! As Bob Marley said, you never know how strong you are, until being strong is your only choice. So keep going!"],
 "Would you like to chat more?$Yes$No","Thank You for answering questions,Name!So our analysis is .%",
-"It was great talking to you! Have a good day!Woud you like to see some recommendation to stay positive?$Show Recommendation$No Thank You$ok"]
+"It was great talking to you! Have a good day!Would you like to see some recommendation to stay positive?$Show Recommendation$No Thank You$ok"]
 
 phq9=["We would like to ask u a few questions and would like you to rate them on a scale of 1-4                 Little Interest or Plasure in doing things?#"
 ,"Feeling down, depressed,or hopeless#","Trouble in falling or staying asleep or sleeping too much#","Feeling tired or having little energy#",
@@ -99,7 +99,8 @@ def get_bot_response():
         text=preprocess(userText)
         if prediction(text, model)==4:
             response=random.choice(responses[iter])
-            iter=7
+            tag1='joy'
+            iter=9
         else:
             iter+=1
             response=random.choice(responses[iter])+responses[iter+1]
@@ -131,7 +132,6 @@ def get_bot_response():
             book_display=book_select(str(tag1))
             session['books1']=book_display[0:4]
             session['books2']=book_display[4:]
-            iter=9
             #movies
             movies = fetch_songs()
             session['movies1']=movies[0:4]
@@ -150,11 +150,27 @@ def get_bot_response():
             response=re.sub("Name",name,responses[7])
 
     elif iter==9:
-        #print(userText,file=sys.stderr)
-        if(userText=="No"):
-            response=responses[iter]
-        elif(userText=="Yes"):
-            quote_ans=scrape(1,tag1)
+        response=responses[8]
+        quote_ans=scrape(1,str(tag1))
+        session['quotes1']=quote_ans[0:4]
+        session['quotes2']=quote_ans[4:]
+        #music
+        song_ans=songs(tag1)
+        session['songs1']=song_ans[0:4]
+        session['songs2']=song_ans[4:]
+        print(song_ans)
+        #books
+        book_display=book_select(str(tag1))
+        session['books1']=book_display[0:4]
+        session['books2']=book_display[4:]
+        #movies
+        movies = fetch_songs()
+        session['movies1']=movies[0:4]
+        session['movies2']=movies[4:]
+
+    
+
+
     return response
     
 @app.route("/show_chatbot")

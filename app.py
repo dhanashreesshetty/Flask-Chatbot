@@ -41,8 +41,8 @@ responses=["Greeting Name, that's a nice name!","So Name, how are you feeling to
 "That's too bad😓 But hey! As Bob Marley said, you never know how strong you are, until being strong is your only choice. So keep going!"],
 "Would you like to chat more?$Yes$No","Thank You for answering questions,Name!So our analysis is .%",
 "It was great talking to you! Have a good day!Would you like to see some recommendation to stay positive?$Show Recommendation$No Thank You$ok",
-"we think the problem is because of covid?$yes$no",
-"What could be the possible causes for your anxiety?$Lockdown/Isolation$Loss of Loved one(s)$You have tested +ve$General negative environment$Can't Say" ]
+"Is your negative mood related to Covid-19 pandemic?$yes$no",
+"What could be the possible causes for your anxiety?$Lockdown/Isolation$Loss of Loved one(s)$You have tested +ve$General Negative Environment$Can't Say" ]
 
 phq9=["We would like to ask u a few questions and would like you to rate them on a scale of 1-4                 Little Interest or Plasure in doing things?#"
 ,"Feeling down, depressed,or hopeless#","Trouble in falling or staying asleep or sleeping too much#","Feeling tired or having little energy#",
@@ -188,15 +188,15 @@ def get_bot_response():
 
     elif iter==11:
         if(userText=="Lockdown/Isolation"):
-            response="Here are some covid mental health guidelines for you: https://www.helplinecenter.org/2-1-1-community-resources/helpsheets/covid-19-and-your-mental-health/ . Is there anything else you would like to share?"
-        elif (userText=="Loss of Loved Ones"):
-            response="Here are some covid mental health guidelines for you: https://www.helplinecenter.org/2-1-1-community-resources/helpsheets/covid-19-and-your-mental-health/ . Is there anything else you would like to share?"
+            response="Here are some ways to beat the lockdown blues and create a virtual support network : <a href='https://www.mentalhealth.org.uk/coronavirus/loneliness-during-coronavirus' target='_blank'>Ways to overcome loneliness</a> .<br><br> Always remember to open up to friends and family around you. We hope you will be benefited from these tips. Is there anything else you would like to share?"
+        elif (userText=="Loss of Loved ones"):
+            response="We cannot imagine the amount of pain you are going through. We would just like you to know that it is okay to grieve and let the sadness wash over you. The pain will lessen little by little and one day you will remember only the happy memories with them. Hang in there and here are some resources to give you support: <a href='https://coronavirus.beyondblue.org.au/managing-my-daily-life/coping-with-grief-and-loss/grieving-the-loss-of-a-loved-one-during-the-coronavirus-pandemic.html' target='_blank'>Grieving loss of a loved one.</a>.<br><br>Is there anything else you would like to share?"
         elif (userText=="You have tested +ve"):
-            response="Here are some covid mental health guidelines for you: https://www.helplinecenter.org/2-1-1-community-resources/helpsheets/covid-19-and-your-mental-health/ . Is there anything else you would like to share?"
+            response="This is a tough situation but nothing you can't overcome. Believing in yourself and following proper nutrition guidelines will make this quarantine easier for you: <a href='https://www.euro.who.int/en/health-topics/health-emergencies/coronavirus-covid-19/publications-and-technical-guidance/food-and-nutrition-tips-during-self-quarantine' target='_blank'>Nutrition tips during quarantine</a> <br><br>Stay safe and get well soon. Is there anything else you would like to share?"
         elif (userText=="General Negative Environment"):
-            response="Here are some covid mental health guidelines for you: https://www.helplinecenter.org/2-1-1-community-resources/helpsheets/covid-19-and-your-mental-health/ . Is there anything else you would like to share?"
+            response="In this digital age, more connectivity has unfortunately resulted in increased spread of devastating news and panic mongering by sensational news bulletins. There are ways in which you can stay away from negative sources:<a href='https://www.narayanahealth.org/blog/tips-to-overcome-coronavirus-related-stress/' target='_blank'>Protecting yourself from overexposure to negative news</a>.<br><br> Is there anything else you would like to share?"
         elif (userText=="Can't Say"):
-            response="Here are some covid mental health guidelines for you: https://www.helplinecenter.org/2-1-1-community-resources/helpsheets/covid-19-and-your-mental-health/ . Is there anything else you would like to share?"
+            response="Here are some covid mental health guidelines for you to understand the issues you are facing and how to overcome them: <a href='https://www.helplinecenter.org/2-1-1-community-resources/helpsheets/covid-19-and-your-mental-health/' taget='_blank'>Covid Helpline</a> . Is there anything else you would like to share?"
         iter =9
 
     elif iter==12:

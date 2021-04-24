@@ -243,8 +243,10 @@
         if (i==0){
           window.location.href = "{{ url_for('show_recommendation') }}";
         }
-                else {
-          msgText="Nearly Everyday";
+        else {
+          msgText="No Thank You";
+          appendMessage(PERSON_NAME, PERSON_IMG, "right", msgText);
+          botResponse(msgText);
         }
         
     }

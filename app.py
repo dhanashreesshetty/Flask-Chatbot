@@ -78,6 +78,7 @@ def home():
 def get_bot_response():
     global iter, name, pred ,phq , tag1
     counter=0
+    tag1="joy"
     userText = request.args.get('msg')
     response=""
     if iter==0:
@@ -143,6 +144,7 @@ def get_bot_response():
             movies = fetch_movies(str(tag1))
             session['movies1']=movies[0:4]
             session['movies2']=movies[4:]
+            iter=12
         elif(userText=="Yes"):
             response=phq9[phq]
             phq=phq+1
@@ -175,7 +177,7 @@ def get_bot_response():
         movies = fetch_movies(str(tag1))
         session['movies1']=movies[0:4]
         session['movies2']=movies[4:]
-
+        iter=12
     elif iter==10:
         if(userText=="Yes"):
             response=responses[10]
@@ -197,7 +199,9 @@ def get_bot_response():
             response="Here are some covid mental health guidelines for you: https://www.helplinecenter.org/2-1-1-community-resources/helpsheets/covid-19-and-your-mental-health/ . Is there anything else you would like to share?"
         iter =9
 
-
+    elif iter==12:
+        if(userText=="No Thank You"):
+            response="No problem! Have a nice day."
     return response
     
 @app.route("/show_chatbot")

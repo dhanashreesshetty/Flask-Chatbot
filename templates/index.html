@@ -103,7 +103,11 @@
           for(var i=0; i<opts.length-1; i++) {
             msgHTML = msgHTML.concat(`<button class="msg-bubble" id="${i}" style="font-size: 16px;display: block;margin-left: 40px;width:250px ;"  onMouseOver="this.style.backgroundColor='#1E90FF'"  onMouseOut="this.style.backgroundColor='#DCDCDC'"><div class="msg-info" onclick='option2(${i})'>${opts[i]}</div></button>`);
           }}
-        
+          else if (opts.length == 5){
+          for(var i=0; i<opts.length; i++) {
+            msgHTML = msgHTML.concat(`<button class="msg-bubble" id="${i}" style="font-size: 16px;display: block;margin-left: 40px;width:250px ;"  onMouseOver="this.style.backgroundColor='#1E90FF'"  onMouseOut="this.style.backgroundColor='#DCDCDC'"><div class="msg-info" onclick='option3(${i})'>${opts[i]}</div></button>`);
+          }}
+      
           else { 
           for(var i=0; i<opts.length; i++) {
             msgHTML = msgHTML.concat(`<button class="msg-bubble" id="${i}" style="display: block;font-size: 14px;margin-left: 60px;width:300px ;"  onMouseOver="this.style.backgroundColor='#1E90FF'"  onMouseOut="this.style.backgroundColor='#DCDCDC'"><div class="msg-info"  style="margin-left: 50px" onclick='option1(${i})'>${opts[i]}</div></button>`);
@@ -244,6 +248,32 @@
         }
         
     }
+
+    function option3(i) {
+      var i=i;
+        if (i==0){
+          msgText="Lockdown/Isolation" ;
+        }
+        else if (i==1){
+          msgText="Loss of Loved ones" ;
+        }
+        else if (i==2){
+          msgText="You have tested +ve" ;
+        }
+        else if (i==3){
+          msgText="General Negative Environment ";
+        }
+        
+        else {
+          msgText="Cant Say";
+        }
+        appendMessage(PERSON_NAME, PERSON_IMG, "right", msgText);
+        botResponse(msgText);
+
+    }
+
+
+
 
 
 

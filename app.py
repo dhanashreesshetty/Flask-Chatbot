@@ -9,6 +9,7 @@ import re
 import datetime
 import random
 from NN.neural import classify
+from NN.covid import covid
 import sys
 from Recommendation.quotes import scrape
 from Recommendation.songs import songs
@@ -39,7 +40,9 @@ responses=["Greeting Name, that's a nice name!","So Name, how are you feeling to
 ["That's too bad😓 But hey! As it is rightly said, you are bigger and better than whatever is intimidating, scaring or hurting you! So don't lose hope!",
 "That's too bad😓 But hey! As Bob Marley said, you never know how strong you are, until being strong is your only choice. So keep going!"],
 "Would you like to chat more?$Yes$No","Thank You for answering questions,Name!So our analysis is .%",
-"It was great talking to you! Have a good day!Would you like to see some recommendation to stay positive?$Show Recommendation$No Thank You$ok"]
+"It was great talking to you! Have a good day!Would you like to see some recommendation to stay positive?$Show Recommendation$No Thank You$ok",
+"we think the problem is because of covid?$yes$no",
+"What could be the possible causes for your anxiety?$Lockdown/Isolation$Loss of Loved one(s)$You have tested +ve$General negative environment$Can't Say" ]
 
 phq9=["We would like to ask u a few questions and would like you to rate them on a scale of 1-4                 Little Interest or Plasure in doing things?#"
 ,"Feeling down, depressed,or hopeless#","Trouble in falling or staying asleep or sleeping too much#","Feeling tired or having little energy#",
@@ -74,6 +77,7 @@ def home():
 @app.route("/get")
 def get_bot_response():
     global iter, name, pred ,phq , tag1
+    counter=0
     userText = request.args.get('msg')
     response=""
     if iter==0:
@@ -103,12 +107,18 @@ def get_bot_response():
             response=random.choice(responses[iter])+responses[iter+1]
             iter=5
     elif iter==5:
+        x=covid(userText)
+        print(x)
         resp=classify(userText)
         tag1=resp
         print(resp)
         #detect sentiment of usertext to use in recommendation model here
-        response=random.choice(responses[iter])
-        iter+=1
+        if x=="Yes":
+            response=responses[9]
+            iter=10
+        else:
+            response=random.choice(responses[iter])
+            iter+=1
     elif iter==6:
         response=responses[iter]
         iter+=1
@@ -165,6 +175,28 @@ def get_bot_response():
         movies = fetch_movies(str(tag1))
         session['movies1']=movies[0:4]
         session['movies2']=movies[4:]
+
+    elif iter==10:
+        if(userText=="Yes"):
+            response=responses[10]
+            iter=11
+        elif (userText=="No"):
+            response=responses[6]
+            iter=7
+
+    elif iter==11:
+        if(userText=="Lockdown/Isolation"):
+            response="Here are some covid mental health guidelines for you: https://www.helplinecenter.org/2-1-1-community-resources/helpsheets/covid-19-and-your-mental-health/ . Is there anything else you would like to share?"
+        elif (userText=="Loss of Loved Ones"):
+            response="Here are some covid mental health guidelines for you: https://www.helplinecenter.org/2-1-1-community-resources/helpsheets/covid-19-and-your-mental-health/ . Is there anything else you would like to share?"
+        elif (userText=="You have tested +ve"):
+            response="Here are some covid mental health guidelines for you: https://www.helplinecenter.org/2-1-1-community-resources/helpsheets/covid-19-and-your-mental-health/ . Is there anything else you would like to share?"
+        elif (userText=="General Negative Environment"):
+            response="Here are some covid mental health guidelines for you: https://www.helplinecenter.org/2-1-1-community-resources/helpsheets/covid-19-and-your-mental-health/ . Is there anything else you would like to share?"
+        elif (userText=="Can't Say"):
+            response="Here are some covid mental health guidelines for you: https://www.helplinecenter.org/2-1-1-community-resources/helpsheets/covid-19-and-your-mental-health/ . Is there anything else you would like to share?"
+        iter =9
+
 
     return response
     

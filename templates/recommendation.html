@@ -187,7 +187,8 @@
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="#quotes">Quotes</a></li>
+          <li class="active"><a href="#covid">Mindfulness Exercises</a></li>
+          <li><a href="#quotes">Quotes</a></li>
           <li><a href="#books">Books</a></li>
           <li><a href="#music">Music</a></li>
           <li><a href="#movies">Movies</a></li>
@@ -233,10 +234,12 @@
 
 <!--First slide-->
 <div class="carousel-item active">
+  <h1 style="margin-left: 155px;">CBT Techniques to train your thinking and reinforce positivity.</h1>
+
   <div class="col-md-3" style="float:left">
    <div class="card mb-2"style="height:320px;width: 450px;">
       <div class="card-body">
-        <h4 class="card-title">title1</h4>
+        <center><h4 class="card-title">Personal Tips</h4></center>
         <img src="{{ url_for('static', filename='img/cbt1.png') }}" class="img-fluid" alt="">
       </div>
 
@@ -247,7 +250,7 @@
   <div class="col-md-3" style="float:left">
     <div class="card mb-2"style="height:320px;width: 450px;">
        <div class="card-body">
-         <h4 class="card-title">title1</h4>
+         <center><h4 class="card-title">Communication Tips</h4></center>
          <img src="{{ url_for('static', filename='img/cbt2.png') }}" class="img-fluid" alt="">
        </div>
  
@@ -258,7 +261,7 @@
    <div class="col-md-3" style="float:left">
     <div class="card mb-2"style="height:320px;width: 450px;">
        <div class="card-body">
-         <h4 class="card-title">title1</h4>
+         <center><h4 class="card-title">Psychological Training</h4></center>
          <img src="{{ url_for('static', filename='img/cbt3.png') }}" class="img-fluid" alt="">
        </div>
  
@@ -272,10 +275,11 @@
 
 <!--Second slide-->
 <div class="carousel-item">
+  <h1 style="margin-left: 255px;">Four Core Strategies for managing stress and anxiety</h1>
   <div class="col-md-3" style="float:left">
     <div class="card mb-2"style="height:300px;width: 380px;">
        <div class="card-body">
-         <h4 class="card-title">title1</h4>
+         <center><h4 class="card-title">Strategy 1</h4></center>
          <img src="{{ url_for('static', filename='img/core1.png') }}" class="img-fluid" alt="">
        </div>
  
@@ -286,7 +290,7 @@
    <div class="col-md-3" style="float:left;">
     <div class="card mb-2"style="height:300px;width: 380px;margin-left:-140px;">
        <div class="card-body">
-         <h4 class="card-title">title1</h4>
+         <center><h4 class="card-title">Strategy 2</h4></center>
          <img src="{{ url_for('static', filename='img/core2.png') }}" class="img-fluid" alt="">
        </div>
  
@@ -297,7 +301,7 @@
    <div class="col-md-3" style="float:left">
     <div class="card mb-2"style="height:300px;width: 380px;margin-left:-280px;">
        <div class="card-body">
-         <h4 class="card-title">title1</h4>
+         <center><h4 class="card-title">Strategy 3</h4></center>
          <img src="{{ url_for('static', filename='img/core3.png') }}" class="img-fluid" alt="">
        </div>
  
@@ -308,7 +312,7 @@
    <div class="col-md-3" style="float:left">
     <div class="card mb-2"style="height:300px;width: 380px;margin-left:-420px;">
        <div class="card-body">
-         <h4 class="card-title">title1</h4>
+         <center><h4 class="card-title">Strategy 4</h4></center>
          <img src="{{ url_for('static', filename='img/core4.png') }}" class="img-fluid" alt="">
        </div>
  
@@ -323,6 +327,37 @@
 
 
 <!--Third slide-->
+<div class="carousel-item ">
+  <h1 style="margin-left: 405px;">6 Steps to manage covid anxiety</h1>
+
+  <div class="col-md-3" style="float:left">
+   <div class="card mb-2"style="height:320px;width: 650px;">
+      <div class="card-body">
+        <center><h4 class="card-title">Step 1</h4></center>
+        <img src="{{ url_for('static', filename='img/tip1.png') }}" class="img-fluid" alt="">
+      </div>
+
+      
+    </div>
+  </div>
+
+  <div class="col-md-3" style="float:left;margin-left: 250px;">
+    <div class="card mb-2"style="height:320px;width: 650px;">
+       <div class="card-body">
+         <center><h4 class="card-title">Step 2</h4></center>
+         <img src="{{ url_for('static', filename='img/tip2.png') }}" class="img-fluid" alt="">
+       </div>
+ 
+       
+     </div>
+   </div>
+
+ 
+      
+</div>
+
+
+
 <!--/.Third slide-->
 
 </div>
@@ -364,11 +399,12 @@
 
   <!--First slide-->
   <div class="carousel-item active">
+    <h1 style="margin-left: 135px;">Some Quotes to give you different perspective.</h1>
     {% for quote in quotes1 %}
     <div class="col-md-3" style="float:left">
      <div class="card mb-2"style="height:400px">
         <div class="card-body">
-          <h4 class="card-title" style="text-align:center">Quotes for you</h4>
+          <center><h4 class="card-title" style="text-align:center">Quote for You!</h4></center>
           <p class="card-text" style="text-align:center">{{ quote }}</p>
         </div>
       </div>
@@ -379,12 +415,12 @@
 
   <!--Second slide-->
   <div class="carousel-item">
-
+    <h1 style="margin-left: 135px;">Some Quotes to give you different perspective.</h1>
     {% for quote in quotes2 %}
     <div class="col-md-3" style="float:left">
      <div class="card mb-2" style="height:400px">
         <div class="card-body">
-          <h4 class="card-title">Quotes for you</h4>
+          <h4 class="card-title">Quote for you!</h4>
           <p class="card-text" style="text-align:center">{{ quote }}</p>
         </div>
       </div>
@@ -435,6 +471,7 @@
   
   <!--First slide-->
   <div class="carousel-item active">
+    <h1 style="margin-left: 250px;">Book Recommendations for You!</h1>
     {% for book in books1 %}
     <div class="col-md-3" style="float:left">
      <div class="card mb-2"style="height:300px">
@@ -450,7 +487,7 @@
   
   <!--Second slide-->
   <div class="carousel-item">
-  
+    <h1 style="margin-left: 250px;">Book Recommendations for You!</h1>
     {% for book in books2 %}
     <div class="col-md-3" style="float:left">
      <div class="card mb-2"style="height:300px">
@@ -503,9 +540,10 @@
   
   <!--Slides-->
   <div class="carousel-inner" role="listbox">
-  
     <!--First slide-->
     <div class="carousel-item active">
+      <h1 style="margin-left: 250px;">Some songs to soothe your mind</h1>
+
       {% for song in songs1 %}
       <div class="col-md-3" style="float:left">
        <div class="card mb-2"style="height:300px">
@@ -522,7 +560,7 @@
   
     <!--Second slide-->
     <div class="carousel-item">
-  
+      <h1 style="margin-left: 250px;">Some songs to soothe your mind</h1>
       {% for song in songs2 %}
       <div class="col-md-3" style="float:left">
        <div class="card mb-2" style="height:300px">
@@ -578,6 +616,7 @@
 
 <!--First slide-->
 <div class="carousel-item active">
+  <h1 style="margin-left: 130px;">Movie Recommendations to lighten your mood!</h1>
   {% for movie in movies1 %}
   <div class="col-md-3" style="float:left">
    <div class="card mb-2"style="height:300px">
@@ -594,7 +633,7 @@
 
 <!--Second slide-->
 <div class="carousel-item">
-
+  <h1 style="margin-left: 130px;">Movie Recommendations to lighten your mood!</h1>
   {% for movie in movies2 %}
   <div class="col-md-3" style="float:left">
    <div class="card mb-2"style="height:300px">

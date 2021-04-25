@@ -168,13 +168,20 @@
       border-radius: 15px;
     }
 
+    #bg{
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      z-index: -5000;
+    }
+
     </style>
  <!----------Style for Login/Registration Form  -->
 
 </head>
 
 <body>
-
+  <img src="{{ url_for('static', filename='img/2.jpeg') }}" id="bg">
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top  header-transparent ">
     <div class="container d-flex align-items-center">

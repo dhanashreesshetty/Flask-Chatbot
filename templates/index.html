@@ -8,16 +8,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
   <!-- partial:index.partial.html -->
-  <img src="images/bg.png" id="bg">
+  <img src="{{ url_for('static', filename='img/2.jpeg') }}" id="bg">
   <section class="msger">
     <header class="msger-header">
       <div class="msger-header-title">
-        <i class="fas fa-bug"></i> ChatBuddy <i class="fas fa-bug"></i>
+        <p style="font-family:  Lobster, cursive; font-size: 1.5em;">ChatBuddy</p>
       </div>
     </header>
 
@@ -97,20 +99,20 @@
           //alert(msgHTML.concat("<button>Yes</button>"));
           if (opts.length == 2){
           for(var i=0; i<opts.length; i++) {
-            msgHTML = msgHTML.concat(`<button class="msg-bubble" id="${i}" style="font-size: 16px;margin-left: 40px;width:100px ;"  onMouseOver="this.style.backgroundColor='#1E90FF'"  onMouseOut="this.style.backgroundColor='#DCDCDC'"><div class="msg-info" onclick='option(${i})'>${opts[i]}</div></button>`);
+            msgHTML = msgHTML.concat(`<button class="msg-bubble" id="${i}" style="font-size: 16px;margin-left: 40px;width:100px ;"  onMouseOver="this.style.backgroundColor='#017f96', this.style.color='#ffffff'"  onMouseOut="this.style.backgroundColor='#baf2fc', this.style.color='#000000'"><div class="msg-info" onclick='option(${i})'>${opts[i]}</div></button>`);
           }}
           else if (opts.length == 3){
           for(var i=0; i<opts.length-1; i++) {
-            msgHTML = msgHTML.concat(`<button class="msg-bubble" id="${i}" style="font-size: 16px;display: block;margin-left: 40px;width:250px ;"  onMouseOver="this.style.backgroundColor='#1E90FF'"  onMouseOut="this.style.backgroundColor='#DCDCDC'"><div class="msg-info" onclick='option2(${i})'>${opts[i]}</div></button>`);
+            msgHTML = msgHTML.concat(`<button class="msg-bubble" id="${i}" style="font-size: 16px;display: block;margin-left: 40px;width:250px ;"  onMouseOver="this.style.backgroundColor='#017f96', this.style.color='#ffffff'"  onMouseOut="this.style.backgroundColor='#baf2fc', this.style.color='#000000'"><div class="msg-info" onclick='option2(${i})'>${opts[i]}</div></button>`);
           }}
           else if (opts.length == 5){
           for(var i=0; i<opts.length; i++) {
-            msgHTML = msgHTML.concat(`<button class="msg-bubble" id="${i}" style="font-size: 16px;display: block;margin-left: 40px;width:250px ;"  onMouseOver="this.style.backgroundColor='#1E90FF'"  onMouseOut="this.style.backgroundColor='#DCDCDC'"><div class="msg-info" onclick='option3(${i})'>${opts[i]}</div></button>`);
+            msgHTML = msgHTML.concat(`<button class="msg-bubble" id="${i}" style="font-size: 16px;display: block;margin-left: 40px;width:250px ;"  onMouseOver="this.style.backgroundColor='#017f96', this.style.color='#ffffff'"  onMouseOut="this.style.backgroundColor='#baf2fc', this.style.color='#000000'"><div class="msg-info" onclick='option3(${i})'>${opts[i]}</div></button>`);
           }}
       
           else { 
           for(var i=0; i<opts.length; i++) {
-            msgHTML = msgHTML.concat(`<button class="msg-bubble" id="${i}" style="display: block;font-size: 14px;margin-left: 60px;width:300px ;"  onMouseOver="this.style.backgroundColor='#1E90FF'"  onMouseOut="this.style.backgroundColor='#DCDCDC'"><div class="msg-info"  style="margin-left: 50px" onclick='option1(${i})'>${opts[i]}</div></button>`);
+            msgHTML = msgHTML.concat(`<button class="msg-bubble" id="${i}" style="display: block;font-size: 14px;margin-left: 60px;width:300px ;"  onMouseOver="this.style.backgroundColor='#017f96', this.style.color='#ffffff'"  onMouseOut="this.style.backgroundColor='#baf2fc', this.style.color='#000000'"><div class="msg-info"  style="margin-left: 50px" onclick='option1(${i})'>${opts[i]}</div></button>`);
           }}
    
       } 
@@ -160,22 +162,22 @@
           msgText=msgText+"Our PHQ-9 test results indicate that you might have ";
           if (phq9_weight<=4 )
           {
-            msgText=msgText+"Minimal Depression."
+            msgText=msgText+"minimal depression."
           }
           else if (phq9_weight<=9){
-            msgText=msgText+"Mild Depression"
+            msgText=msgText+"mild depression."
 
           }          
           else if (phq9_weight<=14){
-            msgText=msgText+"Moderate Depression"
+            msgText=msgText+"moderate depression."
 
           }
           else if (phq9_weight<=19){
-            msgText=msgText+" moderately severe depression. However, there could be margins of errors so we recommend you contact the following foundations/ helplines and seek their help<br>1. COOJ Mental Health Foundation (COOJ) <br> Helpline: +91-8322252525 <br>Time: 01:00 PM - 07:00 PM | Monday to Friday <br><br>2.Parivarthan <br>Time: 10:00 AM - 10:00 PM | Monday to Friday <br>Languages: All Indian languages except తెలుగు, മലയാളി <br>Website: www.parivarthan.org<br><br>3. Connecting Trust<br>Helpline: +91-9922001122, +91-9922004305<br>Time: 12:00 PM - 08:00 PM | All days of the week<br>Languages: English, हिंदी, मराठी<br>Website: https://connectingngo.org"
+            msgText=msgText+"moderately severe depression. However, there could be margins of errors so we recommend that you contact the following foundations/helplines and seek their help<br>1. COOJ Mental Health Foundation (COOJ) <br> Helpline: +91-8322252525 <br>Time: 01:00 PM - 07:00 PM | Monday to Friday <br><br>2.Parivarthan <br>Time: 10:00 AM - 10:00 PM | Monday to Friday <br>Languages: All Indian languages except తెలుగు, മലയാളി <br>Website: www.parivarthan.org<br><br>3. Connecting Trust<br>Helpline: +91-9922001122, +91-9922004305<br>Time: 12:00 PM - 08:00 PM | All days of the week<br>Languages: English, हिंदी, मराठी<br>Website: https://connectingngo.org"
 
           }          
           else if (phq9_weight<=27){
-            msgText=msgText+"Severe Depression. However, there could be margins of errors so we recommend you contact the following foundations/ helplines and seek their help<br>1. COOJ Mental Health Foundation (COOJ) <br> Helpline: +91-8322252525 <br>Time: 01:00 PM - 07:00 PM | Monday to Friday <br><br>2.Parivarthan <br>Time: 10:00 AM - 10:00 PM | Monday to Friday <br>Languages: All Indian languages except తెలుగు, മലയാളി <br>Website: www.parivarthan.org<br><br>3. Connecting Trust<br>Helpline: +91-9922001122, +91-9922004305<br>Time: 12:00 PM - 08:00 PM | All days of the week<br>Languages: English, हिंदी, मराठी<br>Website: https://connectingngo.org"
+            msgText=msgText+"severe Depression. However, there could be margins of errors so we recommend you contact the following foundations/ helplines and seek their help<br>1. COOJ Mental Health Foundation (COOJ) <br> Helpline: +91-8322252525 <br>Time: 01:00 PM - 07:00 PM | Monday to Friday <br><br>2.Parivarthan <br>Time: 10:00 AM - 10:00 PM | Monday to Friday <br>Languages: All Indian languages except తెలుగు, മലയാളി <br>Website: www.parivarthan.org<br><br>3. Connecting Trust<br>Helpline: +91-9922001122, +91-9922004305<br>Time: 12:00 PM - 08:00 PM | All days of the week<br>Languages: English, हिंदी, मराठी<br>Website: https://connectingngo.org"
            
           }
           
@@ -263,7 +265,7 @@
           msgText="You have tested +ve" ;
         }
         else if (i==3){
-          msgText="General Negative Environment";
+          msgText="Negative Environment";
         }
         
         else {

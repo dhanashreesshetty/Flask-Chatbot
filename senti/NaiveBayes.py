@@ -138,3 +138,5 @@ with open("model.sav", 'wb') as f_out:
     pickle.dump(NBclassifier, f_out) # write final_model in .bin file
     f_out.close()  # close the file 
 
+print(NBclassifier.predict("pretty anxious"))
+

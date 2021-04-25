@@ -36,19 +36,19 @@ mysql = MySQL(app)
 
 responses=["Greeting Name, that's a nice name!","So Name, how are you feeling today?",
 ["Oh, that's wonderful!😇","It's a pleasure to see you in a good mood😍","That's so good to hear💚" ],
-["I am sorry to head that😔", "Oh! that's sad😕"],"What do you think is the reason behind that?", 
+["I am sorry to hear that😔", "Oh! that's sad😕"],"What do you think is the reason behind that?", 
 ["That's too bad😓 But hey! As it is rightly said, you are bigger and better than whatever is intimidating, scaring or hurting you! So don't lose hope!",
 "That's too bad😓 But hey! As Bob Marley said, you never know how strong you are, until being strong is your only choice. So keep going!"],
-"Would you like to chat more?$Yes$No","Thank You for answering questions,Name!So our analysis is .%",
-"It was great talking to you! Have a good day!Would you like to see some recommendation to stay positive?$Show Recommendation$No Thank You$ok",
+"Would you like to chat more?$Yes$No","Thank you for answering these questions, Name! %",
+"It was great talking to you! Have a good day! Would you like to get some recommendations to stay positive?$Show Recommendation$No Thank You$ok",
 "Is your negative mood related to Covid-19 pandemic?$yes$no",
-"What could be the possible causes for your anxiety?$Lockdown/Isolation$Loss of Loved one(s)$You have tested +ve$General Negative Environment$Can't Say" ]
+"What could be the possible causes for your anxiety?$Lockdown/Isolation$Loss of Loved one(s)$You have tested +ve$Negative Environment$Can't Say" ]
 
-phq9=["We would like to ask u a few questions and would like you to rate them on a scale of 1-4                 Little Interest or Plasure in doing things?#"
-,"Feeling down, depressed,or hopeless#","Trouble in falling or staying asleep or sleeping too much#","Feeling tired or having little energy#",
-"Poor appetite or overeating#","Feeling bad about yourself or that you are a failure or have let yourself or your family down#",
-"Trouble concertrating on things,such as reading the newspaper or watching television#",
-"Moving or speaking so slowly that other people could have noticed or opposite#","Thoughts that you would be better off dead or of hurting yourself#"
+phq9=["We would like to ask you a few questions. How often do you find that you have little interest or pleasure in doing things?#"
+,"Are you feeling down, depressed, or hopeless?#","Do you have trouble falling or staying asleep, or are you sleeping too much?#","Are you feeling tired or having little energy?#",
+"Do you have poor appetite or are overeating?#","Are you feeling bad about yourself, or that you are a failure or have let yourself or your family down?#",
+"Do you have trouble concentrating on things, such as reading the newspaper or watching television?#",
+"Have you been moving or speaking so slowly that other people have noticed, or the opposite?#","Do you find yourself having thoughts that you would be better off dead, or of hurting yourself?#"
 ]
 
 class NaiveBayesClassifier(object):
@@ -193,7 +193,7 @@ def get_bot_response():
             response="We cannot imagine the amount of pain you are going through. We would just like you to know that it is okay to grieve and let the sadness wash over you. The pain will lessen little by little and one day you will remember only the happy memories with them. Hang in there and here are some resources to give you support: <a href='https://coronavirus.beyondblue.org.au/managing-my-daily-life/coping-with-grief-and-loss/grieving-the-loss-of-a-loved-one-during-the-coronavirus-pandemic.html' target='_blank'>Grieving loss of a loved one.</a>.<br><br>Is there anything else you would like to share?"
         elif (userText=="You have tested +ve"):
             response="This is a tough situation but nothing you can't overcome. Believing in yourself and following proper nutrition guidelines will make this quarantine easier for you: <a href='https://www.euro.who.int/en/health-topics/health-emergencies/coronavirus-covid-19/publications-and-technical-guidance/food-and-nutrition-tips-during-self-quarantine' target='_blank'>Nutrition tips during quarantine</a> <br><br>Stay safe and get well soon. Is there anything else you would like to share?"
-        elif (userText=="General Negative Environment"):
+        elif (userText=="Negative Environment"):
             response="In this digital age, more connectivity has unfortunately resulted in increased spread of devastating news and panic mongering by sensational news bulletins. There are ways in which you can stay away from negative sources:<a href='https://www.narayanahealth.org/blog/tips-to-overcome-coronavirus-related-stress/' target='_blank'>Protecting yourself from overexposure to negative news</a>.<br><br> Is there anything else you would like to share?"
         elif (userText=="Can't Say"):
             response="Here are some covid mental health guidelines for you to understand the issues you are facing and how to overcome them: <a href='https://www.helplinecenter.org/2-1-1-community-resources/helpsheets/covid-19-and-your-mental-health/' taget='_blank'>Covid Helpline</a> . Is there anything else you would like to share?"

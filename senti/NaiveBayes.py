@@ -19,8 +19,8 @@ dataset['tidy_line'] = dataset['tidy_line'].str.replace("[^a-zA-Z#]", " ") #remo
 tokenized_line = dataset['tidy_line'].apply(lambda x: x.split()) # tokenize
 
 #stem
-from nltk.stem.porter import *
-stemmer = PorterStemmer()
+from nltk.stem.snowball import SnowballStemmer
+stemmer = SnowballStemmer(language='english')
 tokenized_line = tokenized_line.apply(lambda x: [stemmer.stem(i) for i in x])
 
 for i in range(len(tokenized_line)):
@@ -134,9 +134,8 @@ NBclassifier.train(xtrain, ytrain, alpha=1)
 results, acc = evaluate_predictions(xtest, ytest, NBclassifier)
 
 ##dump the model into a file
-with open("model.sav", 'wb') as f_out:
+with open("snowmodel.sav", 'wb') as f_out:
     pickle.dump(NBclassifier, f_out) # write final_model in .bin file
     f_out.close()  # close the file 
 
-print(NBclassifier.predict("pretty anxious"))
 

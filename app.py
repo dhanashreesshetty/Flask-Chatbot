@@ -14,7 +14,7 @@ import sys
 from Recommendation.quotes import scrape
 from Recommendation.songs import songs
 from Recommendation.movies import fetch_movies
-from Recommendation.books import book_select
+from Recommendation.books import book_select 
 
 app = Flask(__name__)
 app.static_folder = 'static'
@@ -29,7 +29,7 @@ Session(app)
 app.secret_key = 'your secret key'  
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'root'
+app.config['MYSQL_PASSWORD'] = 'Vesit@123'
 app.config['MYSQL_DB'] = 'users'
   
 mysql = MySQL(app) 
@@ -74,7 +74,12 @@ class NaiveBayesClassifier(object):
 def home(): 
     return render_template("home.html")
 
-@app.route("/get")
+
+
+
+    
+
+@app.route("/get",methods=['GET', 'POST'])
 def get_bot_response():
     global iter, name, pred ,phq , tag1
     counter=0
@@ -102,18 +107,25 @@ def get_bot_response():
         if prediction(text, model)==4:
             response=random.choice(responses[iter])
             tag1='joy'
+            print("4 - Positive")
             iter=9
         else:
             iter+=1
+            print("0 - Negative")
             response=random.choice(responses[iter])+responses[iter+1]
             iter=5
     elif iter==5:
+        resp=classify(userText)
         x=covid(userText)
         print(x)
-        resp=classify(userText)
         tag1=resp
         print(resp)
+        print("ppp",user)
         #detect sentiment of usertext to use in recommendation model here
+        cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
+        cursor.execute('UPDATE  account SET emotion = (% s) WHERE username = (% s) ', (tag1,session['user'],)) 
+        mysql.connection.commit() 
+        ##############################################################################
         if x=="Yes":
             response=responses[9]
             iter=10
@@ -160,6 +172,8 @@ def get_bot_response():
             iter=9
 
     elif iter==9:
+        #stat = request.json.get('phq_score_send')
+        print(stat)
         response=responses[8]
         quote_ans=scrape(1,str(tag1))
         session['quotes1']=quote_ans[0:4]
@@ -178,6 +192,7 @@ def get_bot_response():
         session['movies1']=movies[0:4]
         session['movies2']=movies[4:]
         iter=12
+        
     elif iter==10:
         if(userText=="Yes"):
             response=responses[10]
@@ -202,6 +217,8 @@ def get_bot_response():
     elif iter==12:
         if(userText=="No Thank You"):
             response="No problem! Have a nice day."
+
+        
     return response
     
 @app.route("/show_chatbot")
@@ -219,18 +236,18 @@ def get_quotes2():
     quotes2=session['quotes2']
     return quotes2
 
-
 @app.route('/loginregister', methods =['GET', 'POST']) 
 def loginregister(): 
     msg = '' 
     if request.method == 'POST' and 'username' in request.form and 'password' in request.form and 'email' in request.form: 
         username = request.form['username'] 
+        session['user']=username
         password = request.form['password'] 
         email = request.form['email'] 
         if email!="":
             print(username,password,email)
             cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor) 
-            cursor.execute('SELECT * FROM accounts WHERE username = % s', (username, )) 
+            cursor.execute('SELECT * FROM account WHERE username = % s', (username, )) 
             account = cursor.fetchone() 
             if account: 
                 msg = 'Account already exists !'
@@ -240,17 +257,17 @@ def loginregister():
                 msg = 'Username must contain only characters and numbers !'
             elif not username or not password or not email: 
                 msg = 'Please fill out the form !'
-            else: 
-                cursor.execute('INSERT INTO accounts VALUES (NULL, % s, % s, % s)', (username, password, email, )) 
+            else:
+                cursor.execute('INSERT INTO account VALUES (NULL, % s, % s, % s,% s,% s)', (username, password, email,"happy","minimal" )) 
                 mysql.connection.commit() 
                 msg = 'You have successfully registered !'
                 return render_template('index.html')
 
         else:
             cursor = mysql.connection.cursor(MySQLdb.cursors.DictCursor) 
-            cursor.execute('SELECT * FROM accounts WHERE username = % s AND password = % s', (username, password, )) 
+            cursor.execute('SELECT * FROM account WHERE username = % s AND password = % s', (username, password, )) 
             account = cursor.fetchone() 
-            if account: 
+            if account:
                 session['loggedin'] = True
                 session['id'] = account['id'] 
                 session['username'] = account['username']
@@ -274,4 +291,5 @@ if __name__ == "__main__":
     phq =0
     quote_ans=["hello"]
     name=""
+    user=""
     app.run(debug=True) 

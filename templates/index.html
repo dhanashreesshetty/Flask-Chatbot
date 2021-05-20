@@ -123,6 +123,7 @@
     }
 
 
+    
     function botResponse(rawText) {
 
       // Bot Response
@@ -158,7 +159,12 @@
 
             if(data.includes("%"))
         {
+          
+          // const person = {"phq_score_send":phq9_weight};
+
+
           msgText=msgText.slice(0, msgText.length -1);
+
           msgText=msgText+"Our PHQ-9 test results indicate that you might have ";
           if (phq9_weight<=4 )
           {
@@ -282,6 +288,37 @@
 
 
   </script>
+
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "Vesit@123";
+$dbname = "users";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = "UPDATE MyGuests SET depressionlevel =phq9_weight WHERE username= "purva" ";
+
+if ($conn->query($sql) === TRUE) {
+  echo "Record updated successfully";
+} else {
+  echo "Error updating record: " . $conn->error;
+}
+
+$conn->close();
+?>
+
+
+
+
+
+
+
 
 </body>
 
